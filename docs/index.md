@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# Manual do Utilizador - SAGE Education
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Informática  Aplicada  à  Educação,  caracterizando-se  como  uma ferramenta  estratégica  de  suporte à gestão.
 
-## Commands
+## Guia do Sistema
+### [Introdução](guia/introducao.md)
+### [Instalação](guia/instalacao.md)
+### [Primeiros passos](guia/primeiros-passos.md)
+### [Módulos](guia/modulos.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Menu
+### [SGA](modulos/sga.md)
+### [SGE](modulos/sge.md)
+### [SIE](modulos/sie.md)

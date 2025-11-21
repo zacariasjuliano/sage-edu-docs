@@ -13,12 +13,13 @@ theme:
     - content.code.copy
 
 nav:
-  - Início: index.md
-  - Guia do Sistema:
-      - Introdução: guia/introducao.md
-      - Instalação: guia/instalacao.md
-      - Primeiros Passos: guia/primeiros-passos.md
-  - Módulos:
-      - SGA: modulos/sga.md
-      - SGE: modulos/sge.md
-      - SIE: modulos/sie.md
+  - Manual do Utilizador:
+    - Guia do Sistema:
+        - Introdução: guia/introducao.md
+        - Instalação: guia/instalacao.md
+        - Primeiros Passos: guia/primeiros-passos.md
+        - Módulos: guia/modulos.md
+    - Menu:
+        - SGA: modulos/sga.md
+        - SGE: modulos/sge.md
+        - SIE: modulos/sie.md
