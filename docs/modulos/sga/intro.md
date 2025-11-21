@@ -1,32 +1,49 @@
 ### 🎓 Sistema de Gestão Académica (SGA)
 
 
-📘 ***Definição***
+📘 **Definição**
 
-O SGA é um sistema focado na gestão dos processos académicos de uma instituição de ensino.
-Ou seja, trata especificamente de tudo o que envolve estudantes, cursos, disciplinas e avaliações.
+O SGA é um sistema focado na gestão dos processos académicos de uma instituição de ensino. Trata de todos os processos que envolve estudantes, cursos, disciplinas e avaliações.
 
-⚙️ ***Funcionalidades principais***
+⚙️ **Funcionalidades principais**
 
-Gestão de matrículas e inscrições em disciplinas
+* Gestão de matrículas e inscrições em disciplinas
 
-Lançamento de notas e frequência
+* Lançamento de notas e frequência
 
-Controle de calendário académico
+* Controle de calendário académico
 
-Gestão de turmas e horários
+* Gestão de turmas e horários
 
-Emissão de boletins, certificados e históricos
+* Emissão de boletins, certificados e históricos
 
-Controle de situação académica do estudante (ativo, desistente, concluinte, etc.)
+* Controle de situação académica do estudante (ativo, desistente, concluinte, etc.)
 
-Nesta secção, selecionamos os principais processos e suas ações administrativas e tecnológicas  para que o SAGE Education possa atender às necessidades desejadas das instituições. O presente documento descreve somente a componente responsável pela gestão académica (SGA) e está sujeito a constantes modificações e atualizações regulares, as mudanças são baseadas em melhorias constantes da plataforma.
+Nesta secção, apresentam-se os principais processos e as respetivas ações administrativas e tecnológicas que permitem ao **SAGE Education** atender às necessidades das instituições. Este documento descreve apenas a componente responsável pela gestão académica (SGA) e está sujeito a constantes modificações e atualizações, baseadas na melhoria contínua da plataforma.
 
 O Sistema de Gestão Académica é composta pelos seguintes sub-módulos:
 
-* **Módulo de Entidades:** têm como função principal fazer a gestão das entidades individuas e corporativas da instituição de ensino, mantendo toda a informação organizada e disponível para a instituição.
-* **Módulo de Matrículas:** têm como função principal fazer a gestão de novos candidatos, discentes já matriculados, transferências entre instituições de ensino. Este módulo fornece toda a base necessária para que a gestão de matriculas sejam automatizadas.
-* **Módulo de Turmas:** têm como função principal fazer a gestão de turmas, discentes e docentes. Este módulo fornece toda a base necessária para uma gestão das matrículas, de discentes e docentes sejam feitas com maior controle.
-* **Módulo de Avaliações:** têm como função principal fazer a gestão das avaliações, mantendo o controle das avaliações publicadas, pautas e percurso académico. Este módulo fornece toda a base necessária para uma gestão de turmas mais eficientes, mantendo o controle sobre as avaliações, lançamento de pautas pelos docentes e histórico académico dos discentes de modo automatizado.
-* **Módulo de Configurações:** têm como função principal permitir a configurações dos módulos que compõem a gestão pedagógica académica. Este módulo fornece toda a base necessária para que as matrículas, turmas, avaliações, docentes e discentes sejam automatizadas, nele pode ser feita toda a configuração necessária do modelo de operação e negócio da instituição.
+* **Módulo de Entidades** 
+
+Tem como função principal gerir as entidades individuais e corporativas da instituição de ensino, mantendo a informação organizada e disponível.
+
+* **Módulo de Matrículas** 
+
+Tem como função principal gerir novos candidatos, discentes já matriculados e transferências entre instituições de ensino.
+Este módulo fornece toda a base necessária para que a gestão de matrículas seja automatizada.
+
+* **Módulo de Turmas**
+
+Tem como função principal gerir turmas, discentes e docentes.
+Este módulo fornece a estrutura necessária para que a gestão de matrículas, alunos e professores seja realizada com maior controlo.
+
+* **Módulo de Avaliações** 
+
+Tem como função principal gerir as avaliações, mantendo o controlo das avaliações publicadas, pautas e percurso académico.
+Este módulo oferece a base necessária para uma gestão mais eficiente das turmas, permitindo automatizar o lançamento de pautas e o histórico académico dos discentes.
+
+* **Módulo de Configurações** 
+
+Tem como função principal permitir a configuração dos módulos que compõem a gestão pedagógica académica.
+Aqui podem ser definidas as regras de operação e de negócio da instituição, garantindo que matrículas, turmas, avaliações, docentes e discentes funcionem de maneira automatizada e alinhada ao modelo institucional.
 
