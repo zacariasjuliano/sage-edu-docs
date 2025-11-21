@@ -1,5 +1,4 @@
-### Primeiros Passos
-
+#### Demonstração
 
 Hospedamos um servidor público de demonstração, onde você pode experimentar o SAGE Education com diferentes perfis de acesso:
 
@@ -15,14 +14,14 @@ Hospedamos um servidor público de demonstração, onde você pode experimentar 
 
 
 
-#### 🌐 Homepage
+##### 🌐 Homepage
 
 **Website:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
 **E-mail:** [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)
 
 
 
-#### 💬 Suporte Técnico
+##### 💬 Suporte Técnico
 
 Caso encontre erros ou deseje obter suporte técnico, entre em contato pelos canais abaixo:
 
@@ -30,3 +29,4 @@ Caso encontre erros ou deseje obter suporte técnico, entre em contato pelos can
 - 💬 **WhatsApp:** [+244 926 585 345](https://wa.me/244926585345)
 
 ---
+

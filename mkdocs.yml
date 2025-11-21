@@ -15,11 +15,17 @@ theme:
 nav:
   - Manual do Utilizador:
     - Guia do Sistema:
-        - Introdução: guia/introducao.md
-        - Instalação: guia/instalacao.md
-        - Primeiros Passos: guia/primeiros-passos.md
-        - Módulos: guia/modulos.md
-    - Menu:
-        - SGA: modulos/sga.md
-        - SGE: modulos/sge.md
-        - SIE: modulos/sie.md
+      - Introdução: guia/intro.md
+      - Instalação: guia/install.md
+      - Primeiros Passos: 
+        - Demonstração: guia/demo.md
+        - Interface Gráfica: guia/interface.md
+    - Módulos: 
+      - SGA: 
+        - Descrição: modulos/sga/intro.md
+        - Entidades: modulos/sga/party.md
+        - Matrículas: modulos/sga/matriculation.md
+        - Turmas: modulos/sga/classes.md
+        - Avaliações: modulos/sga/avaliation.md
+      - SGE: modulos/sge.md
+      - SIE: modulos/sie.md

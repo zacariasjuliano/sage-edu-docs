@@ -1,5 +1,24 @@
-### SGA
+### 🎓 Sistema de Gestão Académica (SGA)
 
+
+📘 ***Definição***
+
+O SGA é um sistema focado na gestão dos processos académicos de uma instituição de ensino.
+Ou seja, trata especificamente de tudo o que envolve estudantes, cursos, disciplinas e avaliações.
+
+⚙️ ***Funcionalidades principais***
+
+Gestão de matrículas e inscrições em disciplinas
+
+Lançamento de notas e frequência
+
+Controle de calendário académico
+
+Gestão de turmas e horários
+
+Emissão de boletins, certificados e históricos
+
+Controle de situação académica do estudante (ativo, desistente, concluinte, etc.)
 
 Nesta secção, selecionamos os principais processos e suas ações administrativas e tecnológicas  para que o SAGE Education possa atender às necessidades desejadas das instituições. O presente documento descreve somente a componente responsável pela gestão académica (SGA) e está sujeito a constantes modificações e atualizações regulares, as mudanças são baseadas em melhorias constantes da plataforma.
 
