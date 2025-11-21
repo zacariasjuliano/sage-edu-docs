@@ -1,11 +1,12 @@
 # Manual do Utilizador - SAGE Education
 
-Informática  Aplicada  à  Educação,  caracterizando-se  como  uma ferramenta  estratégica  de  suporte à gestão.
+O SAGE Education é um sistema integrado de Informática Aplicada à Educação, desenvolvido para apoiar a gestão académica e administrativa das instituições de ensino.
+Com uma arquitetura modular, segura e escalável, a plataforma permite gerir entidades, matrículas, turmas, avaliações, percursos académicos e demais processos essenciais ao funcionamento escolar.
+
+Este manual apresenta as funcionalidades, operações e procedimentos necessários para a utilização eficiente dos módulos que compõem o Sistema de Gestão Académica (SGA), servindo como guia de referência para secretarias, docentes, direção e demais utilizadores.
 
 
 
-Zacarias J. Capingala
-
-
-
-Novembro/2025
+Organização: Comunidade do Saber
+Autor: Zacarias J. Capingala
+Data: Novembro/2025
