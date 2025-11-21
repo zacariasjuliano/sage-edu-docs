@@ -27,5 +27,6 @@ nav:
         - Matrículas: modulos/sga/matriculation.md
         - Turmas: modulos/sga/classes.md
         - Avaliações: modulos/sga/avaliation.md
+        - Configurações: modulos/sga/configuration.md
       - SGE: modulos/sge.md
       - SIE: modulos/sie.md
