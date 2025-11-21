@@ -7,6 +7,8 @@ Este manual apresenta as funcionalidades, operações e procedimentos necessári
 
 
 
-Organização: Comunidade do Saber
-Autor: Zacarias J. Capingala
-Data: Novembro/2025
+* Organização: Comunidade do Saber
+
+* Autor: Zacarias J. Capingala
+
+* Data: Novembro/2025

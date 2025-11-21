@@ -6,10 +6,10 @@ A figura abaixo apresenta o ambiente de trabalho SAGE Education, onde maior part
 ![Texto alternativo](../imagens/tela_principal.png)
 
 
-***Menu lateral:*** a barra menu lateral esquerda ou barra de menu, permite que possamos acessar as funcionalidades de cada módulo, nela temos diversas opções de acordo aos módulos instalados.
-***Janela central:*** a janela central permite que interface possa alternar entre vista de listagem ou edição de dados. No ato de cadastro ou edição de registo esta é a área responsável por esta ação.
-***Barra superior:*** no topo da interface, temos a barra superior, onde são agrupas todas as janela ou menus que estão abertos.
-***Barra de gestão:*** a barra de gestão ou opções dispões de uma serie de funcionalidade, ela permite fazer toda a gestão dos registos, bem como a inserção de novos cadastrados
+- ***Menu lateral:*** a barra menu lateral esquerda ou barra de menu, permite que possamos acessar as funcionalidades de cada módulo, nela temos diversas opções de acordo aos módulos instalados.
+- ***Janela central:*** a janela central permite que interface possa alternar entre vista de listagem ou edição de dados. No ato de cadastro ou edição de registo esta é a área responsável por esta ação.
+- ***Barra superior:*** no topo da interface, temos a barra superior, onde são agrupas todas as janela ou menus que estão abertos.
+- ***Barra de gestão:*** a barra de gestão ou opções dispões de uma serie de funcionalidade, ela permite fazer toda a gestão dos registos, bem como a inserção de novos cadastrados
 
 ![Texto alternativo](../imagens/barra_opcoes.png)
 
