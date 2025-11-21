@@ -21,6 +21,13 @@ A interface de docentes oferece a capacidade de gerir informações relacionadas
 ![Texto alternativo](../../imagens/lista_docentes.png)
 
 
+**Disciplina**
+
+A interface de disciplina de docentes oferece a capacidade de gerar e imprimir pautas de exame especial, recurso e mini pautas, de acordo a disciplina selecionada.
+
+![Texto alternativo](../../imagens/pauta_disciplina.png)
+
+
 **Plano de Aula**
 
 A interface de plano de aula permite aos docentes fazerem a inserção dos seus planos de aulas. Mantendo assim um histórico das aulas lecionadas, ao logo do ano letivo.
