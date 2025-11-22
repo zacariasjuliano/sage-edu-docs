@@ -16,9 +16,9 @@ nav:
   - Manual do Utilizador:
     - Guia do Sistema:
       - Introdução: guia/intro.md
-      - Instalação: guia/install.md
       - Primeiros Passos: 
         - Demonstração: guia/demo.md
+        - Instalação: guia/install.md
         - Interface Gráfica: guia/interface.md
     - Módulos: 
       - SGA: 

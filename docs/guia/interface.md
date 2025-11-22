@@ -3,7 +3,7 @@
 A seguir iremos descrever o ambiente de trabalho de modo o utilizador familiarizar-se com a interface e componentes que constituem o SAGE Education, visando facilitar o uso da plataforma.
 A figura abaixo apresenta o ambiente de trabalho SAGE Education, onde maior parte das atividades serão realizadas, para tal vamos fazer descrição das opção que esta interface dispõe.
 
-![Texto alternativo](../imagens/tela_principal.png)
+![Texto alternativo](../imagens/sage-edu.png)
 
 
 - ***Menu lateral:*** a barra menu lateral esquerda ou barra de menu, permite que possamos acessar as funcionalidades de cada módulo, nela temos diversas opções de acordo aos módulos instalados.
