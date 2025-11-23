@@ -67,7 +67,7 @@ Aqui podem ser definidas as regras de operação e de negócio da instituição,
 
 ---
 
-#### Perfis de Utilizadores
+#### 👤 Perfis de Utilizadores
 
 Esta componente disponibiliza ***quatro perfis de utilizadores***, que podem ser atribuídos a qualquer conta dentro da plataforma, permitindo testar diferentes níveis de acesso e funcionalidades.
 
@@ -81,9 +81,100 @@ Esta componente disponibiliza ***quatro perfis de utilizadores***, que podem ser
 
 ---
 
-#### Assistentes
+#### 🔧 Assistentes
+
+Os assistentes são rotinas guiadas que facilitam a execução de processos complexos. O Sistema de Gestão Académica inclui:
+
+* [Efetuar Matrícular](matriculation.md#efetuar-matricula)
+
+* [Associar Disciplinas](matriculation.md#associar-disciplina)
+
+* [Avaliar Candidaturas](matriculation.md#avaliar-candidatura)
+
+* [Mudar Matrícula](matriculation.md#mudanca-de-matricula)
+
+* [Avaliar Turma](matriculation.md#avaliar)
+
+* [Publicar Notas](matriculation.md#publicar-notas)
+
+* [Gerar Pauta](matriculation.md#gerar-pautas)
+
+* [Gerar Percurso Académico](matriculation.md#gerar-percurso-académico)
+
+* [Duplicar Configurações](matriculation.md#mudanca-de-matricula)
+
 
 ---
 
 #### 📝 Documentos Gerados
 
+* Ficha Instituição
+
+* Ficha Funcionários
+
+* Ficha Discente
+
+* Níveis Académico
+
+* Planos de Estudos
+
+* Critério de Admissão
+
+* Pauta de Exame de Acesso
+
+##### Matrículas/Turmas
+
+* Ficha Turma
+
+* Horário Turma
+
+* Lista de Discentes
+
+* Lista de Docentes
+
+* Plano de Aula
+
+* Pauta Final
+
+* Mini Pauta
+
+* Pauta Trimestral
+
+* Pauta de Exame Especial
+
+* Pauta de Recurso
+
+
+##### Discentes/Alunos
+
+* Ficha Acadêmica
+
+* Termo de Frequência
+
+* Ficha Candidato
+
+* Gerar Equivalência
+
+* Ficha Transferência Externa
+
+* Ficha Transferência Interna
+
+* Horário Discente
+
+* Situação da Matrícula
+
+* Boletim de Notas
+
+* Boletim de Matrícula
+
+* Declaração com Notas
+
+* Delcaração sem Notas
+
+* Certificado
+
+##### Funcionários/Docentes
+
+* Horário Docente
+
+* Recibo de Matrícula
