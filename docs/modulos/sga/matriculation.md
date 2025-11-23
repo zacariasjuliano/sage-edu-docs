@@ -3,7 +3,7 @@
 A sessão da secretaria é responsável pela gestão das matrículas, turmas e avaliações. Nela é possível manter o controlo de toda a vida académica dos discentes e docentes, facilitando a emissão de documentos, a publicação de pautas e o atendimento às necessidades dos utentes da secretaria e da direção da instituição.
 
 
-**Candidatos**
+##### Candidatos
 
 Na imagem acima, podemos observar as informações de uma candidatura vinculada ao candidato. É possível visualizar dados relacionados ao nível académico, fase, modalidade e o resultado final da candidatura.
 
@@ -11,7 +11,7 @@ Na imagem acima, podemos observar as informações de uma candidatura vinculada 
 
 ---
 
-**Transferências**
+##### Transferências
 
 Esta sessão permite a gestão de duas modalidades de transferência: interna e externa.
 
@@ -19,7 +19,7 @@ Esta sessão permite a gestão de duas modalidades de transferência: interna e 
 
 * Transferência externa refere-se a discentes que estão a entrar na instituição provenientes de outra.
 
-***Transferências internas***
+**Transferências internas**
 
 Para cadastrar uma nova transferência interna, é necessário ter um discente previamente matriculado no sistema. Em seguida:
 
@@ -34,7 +34,7 @@ Para cadastrar uma nova transferência interna, é necessário ter um discente p
 ![Texto alternativo](../../imagens/transferencia_interna.png)
 
 
-***Transferências externas***
+**Transferências externas**
 
 Para cadastrar uma transferência externa:
 
@@ -52,7 +52,7 @@ Caso se deseje informar as disciplinas que o discente frequentou noutra institui
 
 ---
 
-**Efetuar Matrícula**
+##### Efetuar Matrícula
 
 O assistente de matrículas permite realizar matrículas de forma dinâmica. É necessário informar o tipo de matrícula — candidato, transferido ou discente previamente matriculado.
 
@@ -72,7 +72,7 @@ Para efetuar uma matrícula:
 
 ---
 
-**Associar Disciplina**
+##### Associar Disciplina
 
 O assistente de associação de disciplinas permite associar disciplinas de uma turma específica a determinados discentes. É utilizado quando um discente está matriculado numa turma, mas ainda não possui disciplinas vinculadas.
 
@@ -90,7 +90,7 @@ Este assistente facilita a organização das disciplinas atribuídas aos discent
 
 ---
 
-**Avaliar Candidatura**
+##### Avaliar Candidatura
 
 O assistente de avaliação de candidaturas permite analisar os candidatos inscritos e determinar se serão aprovados ou reprovados.
 
@@ -110,7 +110,7 @@ Esta ferramenta garante uma seleção criteriosa, eficiente e transparente.
 
 ---
 
-**Mudança de Matrícula**
+##### Mudança de Matrícula
 
 O assistente de mudança de matrícula permite transferir um discente para outra área, curso, turma ou período.
 
