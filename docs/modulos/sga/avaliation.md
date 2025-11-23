@@ -6,7 +6,7 @@ O menu Avaliações é responsável por fazer a gestão das avaliações dos dis
 
 ---
 
-**Publicar Notas**
+##### Publicar Notas
 
 O assistente de publicação de notas simplifica a atribuição de notas aos alunos, facilitando a geração de uma lista nominal de discentes com base nas avaliações inseridas.
 
@@ -18,7 +18,7 @@ Caso não desejemos prosseguir, temos a opção de clicar em "Cancelar". Essa fe
 
 ---
 
-**Avaliações**
+##### Avaliações
 
 A gestão de avaliações é conduzida por meio desta interface, permitindo a visualização de todas as avaliações e, para cada uma delas, a listagem dos discentes com as suas respetivas notas.
 
@@ -29,7 +29,7 @@ Essa abordagem oferece uma forma eficaz de gerir e atualizar as notas dos estuda
 
 ---
 
-**Gerar Pautas**
+##### Gerar Pautas
 
 O assistente de geração de pautas permite criar pautas de forma dinâmica, exigindo apenas a inserção dos dados necessários. A pauta é gerada automaticamente com todos os cálculos elaborados com base nas fórmulas definidas.
 
@@ -39,7 +39,7 @@ Para criar uma nova pauta, é necessário fornecer os dados obrigatórios. Na op
 
 ---
 
-**Pautas**
+##### Pautas
 
 A gestão de pautas é realizada através desta interface, na qual é possível visualizar todas as pautas já geradas.
 Para cada pauta, é disponibilizada uma listagem dos discentes com as suas respetivas notas, proporcionando uma visão abrangente do desempenho académico de cada aluno.
@@ -50,7 +50,7 @@ Essa interface facilita a análise e o acompanhamento das avaliações ao longo 
 
 ---
 
-**Gerar Percurso**
+##### Gerar Percurso
 
 O assistente de geração de percurso académico possibilita registar as atividades académicas de uma turma específica, ou seja, o desempenho dos discentes nela matriculados.
 
@@ -60,7 +60,7 @@ Essa ferramenta oferece uma forma eficiente de documentar e analisar o progresso
 
 ---
 
-**Percurso Académico**
+##### Percurso Académico
 
 O percurso académico permite armazenar o desempenho obtido pelos discentes ao longo de um determinado ano letivo, oferecendo informações cruciais para a tomada de decisões quanto à progressão ou retenção dos alunos.
 
