@@ -4,7 +4,7 @@ O menu de configurações tem como finalidade oferecer suporte às operações d
 Esse menu é essencial para configurar e personalizar o sistema de acordo com as necessidades, normas e regras nas quais a instituição está inserida, garantindo assim eficiência e adequação às políticas e processos pedagógicos.
 
 
-**Duplicar**
+##### Duplicar
 
 O assistente de duplicação permite criar cópias das informações de um plano de estudos para outro. Essa funcionalidade possibilita duplicar tanto disciplinas quanto avaliações de um plano para outro.
 
@@ -18,7 +18,7 @@ Essa ferramenta simplifica o processo de replicação de informações entre dif
 
 ---
 
-**Níveis Académicos**
+##### Níveis Académicos
 
 A interface de níveis académicos permite a gestão dos níveis oferecidos pela instituição.
 Nela, é possível visualizar todos os níveis existentes, adicionar novos níveis e definir as suas características específicas.
@@ -27,7 +27,7 @@ Nela, é possível visualizar todos os níveis existentes, adicionar novos níve
 
 ---
 
-**Sala de Aulas**
+##### Sala de Aulas
 
 A gestão de salas de aula é realizada nesta interface, permitindo o registo de novas salas.
 Para criar uma sala de aula, basta clicar em "Novo", inserir os dados necessários e, em seguida, clicar em "Salvar" para concluir o processo.
@@ -36,7 +36,7 @@ Para criar uma sala de aula, basta clicar em "Novo", inserir os dados necessári
 
 ---
 
-**Métricas**
+##### Métricas
 
 A gestão de métricas (ou avaliações) é feita nesta interface, onde é possível visualizar todas as métricas existentes.
 Para criar uma nova métrica, basta clicar em "Novo", informar os dados necessários e, em seguida, clicar em "Salvar".
@@ -47,7 +47,7 @@ Cada métrica contém informações como a avaliação, o tipo de avaliação e 
 
 ---
 
-**Ano Letivos**
+##### Ano Letivos
 
 A interface de anos letivos permite realizar uma gestão completa dos períodos letivos.
 Nela, é possível definir trimestres, fases e critérios de admissão, planos de estudos e criar novas turmas.
@@ -66,7 +66,7 @@ Além disso, é possível criar novas turmas diretamente por esta interface, cas
 Essas funcionalidades proporcionam uma gestão abrangente e integrada dos elementos-chave associados ao ano letivo.
 
 
-***Observação***
+**Observação**
 
 No menu de configurações existe o sub-menu Pré-Configurados, onde estão disponíveis algumas configurações prontas para uso.
 Podem ser adicionadas outras configurações conforme as necessidades da instituição.
