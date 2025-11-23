@@ -13,20 +13,37 @@ theme:
     - content.code.copy
 
 nav:
-  - Manual do Utilizador:
-    - Guia do Sistema:
-      - Introdução: guia/intro.md
-      - Primeiros Passos: 
-        - Demonstração: guia/demo.md
-        - Instalação: guia/install.md
-        - Interface Gráfica: guia/interface.md
-    - Módulos: 
-      - SGA: 
-        - Descrição: modulos/sga/intro.md
-        - Entidades: modulos/sga/party.md
-        - Matrículas: modulos/sga/matriculation.md
-        - Turmas: modulos/sga/classes.md
-        - Avaliações: modulos/sga/avaliation.md
-        - Configurações: modulos/sga/configuration.md
-      - SGE: modulos/sge.md
-      - SIE: modulos/sie.md
+  - Introdução: guia/intro.md
+  - Guia Rápido:
+    - Demonstração: guia/demo.md
+    - Instalação: guia/install.md
+    - Interface do Sistema: guia/interface.md
+  - Módulos: 
+    - SGA: 
+      - Descrição: modulos/sga/intro.md
+      - Entidades: modulos/sga/party.md
+      - Matrículas: modulos/sga/matriculation.md
+      - Turmas: modulos/sga/classes.md
+      - Avaliações: modulos/sga/avaliation.md
+      - Configurações: modulos/sga/configuration.md
+    - SGE: 
+      - Descrição: modulos/sge/intro.md
+    - SIE: 
+      - Descrição: modulos/sie/intro.md
+  #- Manual do Utilizador: 
+    #- Perfis de Acesso: guia/perfis.md
+    #- Fluxo de Operações: guia/conceitos.md 
+  #- Administração do Sistema:
+  #  - Configurações Globais: admin/config.md
+  #  - Utilizadores e Permissões (ACL): admin/users.md
+  #  - Backup e Recuperação: admin/backup.md
+  #  - Auditoria e Logs: admin/audit.md
+  - Desenvolvedor:
+    - Ambiente de Desenvolvimento: guia/dev.md
+  #    - API: api/index.md
+  #    - Base de Dados: dev/db.md
+  #    - Integrações: dev/integrations.md
+
+  #- Suporte:
+  #    - Perguntas Frequentes: suporte/faq.md
+  #    - Problemas Comuns: suporte/troubleshooting.md

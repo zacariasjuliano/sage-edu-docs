@@ -6,6 +6,13 @@ Com uma arquitetura modular, segura e escalável, a plataforma permite gerir ent
 Este manual apresenta as funcionalidades, operações e procedimentos necessários para a utilização eficiente dos módulos que compõem o Sistema de Gestão Académica (SGA), servindo como guia de referência para secretarias, docentes, direção e demais utilizadores.
 
 
+```bash
+
+SAGE Education — Sistema Aberto de Gestão Educacional
+Uma plataforma livre e modular para administração académica e escolar.
+
+```
+
 
 * Organização: Comunidade do Saber
 

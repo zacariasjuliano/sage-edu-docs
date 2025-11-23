@@ -1,7 +1,7 @@
 ### 🎓 Sistema de Gestão Académica (SGA)
 
 
-📘 **Definição**
+#### 📘 Definição
 
 O SGA é um sistema focado na gestão dos processos académicos de uma instituição de ensino. Trata de todos os processos que envolve estudantes, cursos, disciplinas e avaliações.
 
@@ -18,6 +18,24 @@ O SGA é um sistema focado na gestão dos processos académicos de uma institui�
 * Emissão de boletins, certificados e históricos
 
 * Controle de situação académica do estudante (ativo, desistente, concluinte, etc.)
+
+👥 **Público-alvo**
+
+Universidades, institutos, escolas, centro de formações e explicações que precisam administrar a vida académica dos alunos de forma estruturada.
+
+💡 **Exemplo**
+
+Um SGA permite que:
+
+* O estudante se inscreva online nas disciplinas do semestre;
+
+* O docente lance notas e presenças;
+
+* A secretaria gere históricos e documentos oficiais.
+
+---
+
+#### 📦 Módulos
 
 Nesta secção, apresentam-se os principais processos e as respetivas ações administrativas e tecnológicas que permitem ao **SAGE Education** atender às necessidades das instituições. Este documento descreve apenas a componente responsável pela gestão académica (SGA) e está sujeito a constantes modificações e atualizações, baseadas na melhoria contínua da plataforma.
 
@@ -46,4 +64,26 @@ Este módulo oferece a base necessária para uma gestão mais eficiente das turm
 
 Tem como função principal permitir a configuração dos módulos que compõem a gestão pedagógica académica.
 Aqui podem ser definidas as regras de operação e de negócio da instituição, garantindo que matrículas, turmas, avaliações, docentes e discentes funcionem de maneira automatizada e alinhada ao modelo institucional.
+
+---
+
+#### Perfis de Utilizadores
+
+Esta componente disponibiliza ***quatro perfis de utilizadores***, que podem ser atribuídos a qualquer conta dentro da plataforma, permitindo testar diferentes níveis de acesso e funcionalidades.
+
+| **Perfil** | **Usuário** | **Senha**       |
+| ---------- | ----------- | --------------- |
+| Discente   | aluno       | sage_aluno      |
+| Docente    | docente     | sage_docente    |
+| Secretaria | secretaria  | sage_secretaria |
+| Direção    | direcao     | sage_direcao    |
+
+
+---
+
+#### Assistentes
+
+---
+
+#### 📝 Documentos Gerados
 
