@@ -93,15 +93,15 @@ Os assistentes são rotinas guiadas que facilitam a execução de processos comp
 
 * [Mudar Matrícula](matriculation.md#mudanca-de-matricula)
 
-* [Avaliar Turma](matriculation.md#avaliar)
+* [Avaliar Turma](classes.md#avaliar)
 
-* [Publicar Notas](matriculation.md#publicar-notas)
+* [Publicar Notas](avaliation.md#publicar-notas)
 
-* [Gerar Pauta](matriculation.md#gerar-pautas)
+* [Gerar Pauta](avaliation.md#gerar-pautas)
 
-* [Gerar Percurso Académico](matriculation.md#gerar-percurso-académico)
+* [Gerar Percurso Académico](avaliation.md#gerar-percurso)
 
-* [Duplicar Configurações](matriculation.md#mudanca-de-matricula)
+* [Duplicar Configurações](configuration.md#duplicar)
 
 
 ---
@@ -122,8 +122,6 @@ Os assistentes são rotinas guiadas que facilitam a execução de processos comp
 
 * Pauta de Exame de Acesso
 
-##### Matrículas/Turmas
-
 * Ficha Turma
 
 * Horário Turma
@@ -143,9 +141,6 @@ Os assistentes são rotinas guiadas que facilitam a execução de processos comp
 * Pauta de Exame Especial
 
 * Pauta de Recurso
-
-
-##### Discentes/Alunos
 
 * Ficha Acadêmica
 
@@ -172,8 +167,6 @@ Os assistentes são rotinas guiadas que facilitam a execução de processos comp
 * Delcaração sem Notas
 
 * Certificado
-
-##### Funcionários/Docentes
 
 * Horário Docente
 
