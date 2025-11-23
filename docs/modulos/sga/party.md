@@ -12,7 +12,7 @@ Cada entidade pode ter associado:
 
 
 
-**Entidades**
+##### Entidades
 
 Para criar uma nova entidade:
 
@@ -29,7 +29,7 @@ Após criar a entidade, pode adicionar contactos, endereços, idioma, entre outr
 
 ---
 
-**Instituição**
+##### Instituição
 
 Para criar uma nova instituição:
 
@@ -48,7 +48,7 @@ Para criar uma nova instituição:
 
 ---
 
-**Funcionários**
+##### Funcionários
 
 O sistema oferece duas formas de cadastrar funcionários:
 
@@ -73,7 +73,7 @@ Para cadastrar:
 
 ---
 
-**Discentes**
+##### Discentes
 
 Para cadastrar um discnete:
 
