@@ -8,7 +8,7 @@ Ao clicar no botão “Novo”, é possível inserir os dados da turma, incluind
 
 ---
 
-**Discentes**
+##### Discentes
 
 A interface de discentes possibilita a administração efetiva dos estudantes, contendo as informações disponíveis na secção de discentes em turmas. A gestão pode ser feita tanto nesta secção específica quanto na secção de turmas. Ambas as opções oferecem funcionalidades para gerir e controlar informações relacionadas aos discentes, proporcionando flexibilidade na administração académica.
 
@@ -16,7 +16,7 @@ A interface de discentes possibilita a administração efetiva dos estudantes, c
 
 ---
 
-**Docentes**
+##### Docentes
 
 A interface de docentes oferece a capacidade de gerir informações relacionadas aos professores. A gestão pode ser realizada tanto nesta secção específica quanto na secção de turmas. Ambas as opções disponibilizam funcionalidades para administrar e controlar os dados dos docentes, proporcionando flexibilidade na gestão académica.
 
@@ -24,7 +24,7 @@ A interface de docentes oferece a capacidade de gerir informações relacionadas
 
 ---
 
-**Disciplina**
+##### Disciplina
 
 A interface de disciplina oferece a capacidade de gerar e imprimir pautas de exame especial, recurso e mini-pautas, de acordo com a disciplina selecionada.
 
@@ -32,7 +32,7 @@ A interface de disciplina oferece a capacidade de gerar e imprimir pautas de exa
 
 ---
 
-**Plano de Aula**
+##### Plano de Aula
 
 A interface de plano de aula permite aos docentes inserirem os seus planos de aula, mantendo assim um histórico das aulas lecionadas ao longo do ano letivo.
 
@@ -40,7 +40,7 @@ A interface de plano de aula permite aos docentes inserirem os seus planos de au
 
 ---
 
-**Avaliar**
+##### Avaliar
 
 O assistente de avaliação de turmas ou discentes possibilita, ao final de cada ano letivo, avaliar o desempenho dos estudantes em uma turma específica. Isso permite determinar quais discentes irão progredir para a próxima série e quais precisarão repetir o ano.
 
