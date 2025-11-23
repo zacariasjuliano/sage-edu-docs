@@ -32,7 +32,7 @@ source sage_edu_env/bin/activate
 O SAGE Edu utiliza o Tryton como framework base e o PostgreSQl como gestor de banco dados.
 Instale os pacotes necessários dentro do ambiente virtual:
 
-* 📦 PostgreSQL
+#### 📦 Instação do PostgreSQL
 
 ```bash
 sudo apt install postgresql postgresql-contrib
@@ -82,7 +82,7 @@ createdb -U sage_edu sage_edu_db
 ```
 
 
-* 📦 Trytond
+#### 📦 Instalação do Trytond
 
 ```bash
 pip install psycopg2-binary
@@ -120,7 +120,7 @@ trytond-admin -c trytond.conf -d sage_edu_db --all
 trytond -c trytond.conf
 ```
 
-* 📦 Instalação dos Módulos SAGE Edu
+#### 📦 Instalação dos Módulos SAGE Edu
 
 Após o ambiente Tryton estar configurado, instale os módulos oficiais do SAGE Edu diretamente do GitHub:
 
