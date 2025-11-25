@@ -39,6 +39,7 @@ nav:
   #  - Backup e Recuperação: admin/backup.md
   #  - Auditoria e Logs: admin/audit.md
   - Desenvolvedor:
+    - Processo de Desenvolvimento: guia/relaese_process.md
     - Ambiente de Desenvolvimento: guia/dev.md
   #    - API: api/index.md
   #    - Base de Dados: dev/db.md
