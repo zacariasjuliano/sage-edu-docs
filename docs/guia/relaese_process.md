@@ -1,6 +1,6 @@
 ## 📘 Processo de Desenvolvimento
 
-O **SAGE Education**  segue um ciclo de desenvolvimento estruturado, garantindo qualidade, segurança e estabilidade a cada nova versão. As versões estáveis são disponibilizadas anualmente (a cada 12 meses). Entre estes lançamentos, são distribuídas:
+O **SAGE Education** segue um ciclo de desenvolvimento estruturado, garantindo qualidade, segurança e estabilidade a cada nova versão. As versões estáveis são disponibilizadas anualmente (a cada 12 meses). Entre estes lançamentos, são distribuídas:
 
 * Atualizações trimestrais (a cada 3 meses), trazendo melhorias, otimizações e pequenas funcionalidades.
 

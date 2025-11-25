@@ -41,6 +41,7 @@ nav:
   - Desenvolvedor:
     - Processo de Desenvolvimento: guia/relaese_process.md
     - Ambiente de Desenvolvimento: guia/dev.md
+    - Contrinuições: guia/contributing.md
   #    - API: api/index.md
   #    - Base de Dados: dev/db.md
   #    - Integrações: dev/integrations.md
