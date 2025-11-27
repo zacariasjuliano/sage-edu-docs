@@ -27,9 +27,29 @@ A documentação oficial do **SAGE Edu** está disponível no GitHub, onde pode:
 * Criar novos tópicos
 * Atualizar informações desatualizadas
 
+#### 🧩 Normas de Codificação
+
+O SAGE Edu segue:
+
+* As normas de desenvolvimento recomendadas pela comunidade do framework Tryton
+👉 https://www.tryton.org/develop/guidelines/code
+
+* As boas práticas do Python (PEP 8)
+👉 https://www.python.org/dev/peps/pep-0008/
+
+* O projeto é desenvolvido em Python, e o código-fonte está disponível no GitHub:
+👉 https://github.com/comunidadedosaber/akademy-party
+
+Para obter uma cópia do projeto:
+
+```bash
+git clone https://github.com/comunidadedosaber/akademy-party
+git clone https://github.com/comunidadedosaber/akademy-company
+```
+
 
 ### 🐞 Reportar Bugs
 
 Como em qualquer software, erros podem ocorrer. Estamos sempre a trabalhar para os identificar e corrigir, mas a comunidade desempenha um papel fundamental neste processo.
 
-Se encontrar algum bug, comportamento inesperado ou falha, pedimos que comunique através dos canais oficiais do projeto. A sua ajuda contribui diretamente para melhorar a qualidade e estabilidade do sistema.
+Se encontrar algum bug, comportamento inesperado ou falha, pedimos que comunique através dos canais oficiais do projeto. A sua ajuda contribui diretamente a melhorar a qualidade e estabilidade do sistema.
