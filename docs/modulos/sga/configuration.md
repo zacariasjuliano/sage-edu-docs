@@ -21,7 +21,7 @@ Essa ferramenta simplifica o processo de replicação de informações entre dif
 ##### Níveis Académicos
 
 A interface de níveis académicos permite a gestão dos níveis oferecidos pela instituição.
-Nela, é possível visualizar todos os níveis existentes, adicionar novos níveis e definir as suas características específicas.
+Nela, é possível visualizar todos os níveis existentes, adicionar novos níveis e definir as suas caráterísticas específicas.
 
 ![Texto alternativo](../../imagens/niveis_academicos.png)
 
