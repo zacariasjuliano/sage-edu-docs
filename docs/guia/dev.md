@@ -125,12 +125,8 @@ trytond -c trytond.conf
 Após o ambiente Tryton estar configurado, instale os módulos oficiais do SAGE Edu diretamente do GitHub:
 
 ```bash
-pip install git+https://github.com/zacariasjuliano/akademy_party
-pip install git+https://github.com/zacariasjuliano/akademy_company
-pip install git+https://github.com/zacariasjuliano/akademy_classe
-pip install git+https://github.com/zacariasjuliano/akademy_avaliation
-pip install git+https://github.com/zacariasjuliano/akademy_matriculation
-pip install git+https://github.com/zacariasjuliano/akademy_matriculation_confirmation
+git clone https://github.com/comunidadedosaber/akademy-party
+git clone https://github.com/comunidadedosaber/akademy-company
 ```
 
 💡 Nota: Após instalar novos módulos, é recomendado reiniciar o servidor Tryton e executar novamente o trytond-admin para sincronização das tabelas.
