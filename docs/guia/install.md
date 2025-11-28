@@ -34,7 +34,9 @@ Incluindo criação de usuário e permissões.
 * Instalar os módulos via PIP
 
 ```bash
+pip install akademy-party
 pip install akademy-company
+pip install akademy-classe
 ```
 
 * Criar o arquivo de configuração do Tryton (trytond.conf)

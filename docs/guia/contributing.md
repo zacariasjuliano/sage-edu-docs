@@ -43,6 +43,7 @@ Para obter uma cópia do projeto:
 ```bash
 git clone https://github.com/comunidadedosaber/akademy-party
 git clone https://github.com/comunidadedosaber/akademy-company
+git clone https://github.com/comunidadedosaber/akademy-classe
 ```
 
 
