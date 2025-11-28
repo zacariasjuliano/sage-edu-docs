@@ -4,7 +4,7 @@ echo "🏫 SAGE Education - Gestão Institucional / ERP"
 echo "Versão: 1.0"
 echo "Módulo: SAGE Education"  
 echo "Desenvolvedor: Zacarias Juliano Capingala *(Homem Marketing)*"
-echo "Data: 10/12/2021"
+echo "Data: 21/11/2025"
 
 echo "🚀 Iniciando instalação do SAGE Edu..."
 
@@ -42,7 +42,7 @@ source ./bin/activate
 # -----------------------------
 echo "📚 Instalando módulos do SAGE Edu..."
 pip install --upgrade pip
-pip install akademy-company #akademy-party #trytond
+pip install akademy-classe #akademy-company #akademy-party #trytond
 
 # -----------------------------
 # 5. Criar arquivo de configuração do Tryton
