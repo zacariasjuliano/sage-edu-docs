@@ -11,13 +11,13 @@ Antes de iniciar, certifique-se de ter um dos seguintes componentes instalados n
 
 Para fazer a instyalação do SAGE Edu, basta baixar o script de instalação e executá-lo no seu servidor:
 
-👉 [Baixar Script de Instalação](https://github.com/zacariasjuliano/sage-edu-docs/tree/main/scripts/sage_edu-v1.0.0-install.sh)
+👉 [Baixar Script de Instalação](https://github.com/zacariasjuliano/sage-edu-docs/tree/main/scripts/sage_edu-v1-install.sh)
 
 Depois, torne o script executável e rode:
 
 ```bash
-chmod +x sage_edu-v1.0.0-install.sh
-./sage_edu-v1.0.0-install.sh
+chmod +x sage_edu-v1-install.sh
+./sage_edu-v1-install.sh
 ```
 
 ##### 🔧 Instalação via PIP (Manual)
