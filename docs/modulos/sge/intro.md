@@ -1,52 +1,61 @@
-### 🏫 Sistema de Gestão Escolar (SGE)
+### 🏫 School Management System (SMS)
 
 
-#### 📘 Definição
+#### 📘 Definition
 
-O SGE é mais abrangente do que o SGA.
-Além de cobrir a parte académica, também cuida da administração geral da escola, incluindo gestão pedagógica, administrativa e financeira.
+SMS is broader than SMS.
 
-⚙️ **Funcionalidades principais**
-
-* Tudo o que o SGA faz (vida académica do aluno)
-
-* Gestão de docentes e funcionários
-
-* Gestão de turmas, salas e recursos físicos
-
-* Controle financeiro (mensalidades, propinas, despesas)
-
-* Comunicação escola-família (mensagens, relatórios, avisos)
-
-* Gestão de biblioteca, transporte, cantina, etc.
-
-👥 **Público-alvo**
-
-Escolas básicas e secundárias, centros de formação e institutos que buscam uma visão integrada da instituição.
-
-💡 **Exemplo**
-
-Um SGE pode:
-
-* Gerar automaticamente as mensalidades de cada aluno;
-
-* Registrar faltas e ocorrências disciplinares;
-
-* Gerar relatórios financeiros e pedagógicos para a direção.
+In addition to covering the academic aspects, it also takes care of the overall administration of the school, including pedagogical, administrative, and financial management.
 
 ---
 
-#### 📦 Módulos
+⚙️ **Main Features**
 
-* **SGA**
+* Everything the AMS does (student academic life)
 
-Todos os módulos existente no SGA...
+* Management of teachers and staff
+
+* Management of classes, rooms, and physical resources
+
+* Financial control (tuition fees, expenses)
+
+* School-family communication (messages, reports, notices)
+
+* Management of library, transportation, cafeteria, etc.
 
 ---
 
-#### Perfis de Utilizadores
+👥 **Target Audience**
 
-Além do perfis que o sistsema de gestão adaémico já traz consigo, este componente introduz os seguintes perfis.
+Elementary and secondary schools, training centers, and institutes seeking an integrated view of the institution.
+
+💡 **Example**
+
+An SMS can:
+
+* Automatically generate tuition fees for each student;
+
+* Record absences and disciplinary incidents;
+
+* Generate financial and academic reports for the administration.
+
+---
+
+#### 📦 Modules
+
+This section presents the main processes and their respective administrative and technological actions that allow **SAGE Education** to meet the needs of institutions. This document describes only the component responsible for school management (SMS) and is subject to constant modifications and updates, based on the continuous improvement of the platform.
+
+The School Management System is composed of the following sub-modules:
+
+* **AMS**
+
+All the modules in the AMS ...
+
+---
+
+#### 👤 User Profiles
+
+In addition to the profile that the academic management system already provides, this component introduces the following profiles.
 
 | **Perfil** | **Usuário** | **Senha**       |
 | ---------- | ----------- | --------------- |
@@ -54,8 +63,8 @@ Além do perfis que o sistsema de gestão adaémico já traz consigo, este compo
 
 ---
 
-#### Assistentes
+#### 🔧 Assistants
 
 ---
 
-#### 📝 Documentos Gerados
+#### 📝 Generated Documents
