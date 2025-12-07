@@ -3,7 +3,7 @@ site_url: https://<seu-usuario>.github.io/sage-edu-docs/
 
 theme:
   name: 'readthedocs'
-  language: 'pt'
+  language: 'en'
   features:
     - navigation.instant
     - navigation.sections
