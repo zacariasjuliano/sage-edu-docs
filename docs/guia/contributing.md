@@ -17,10 +17,9 @@ You can contribute in two ways:
 Translating **SAGE Edu** is simple and requires no advanced knowledge. Simply copy a `.po` file and adjust its content to suit your desired language, in the case of new translations.
 
 
-### 📝 Escrita e Melhoria da Documentação
+### 📝 Writing and Improving Documentation
 
-Manter uma documentação completa e atualizada é um desafio contínuo, e toda ajuda é valiosa.
-A documentação oficial do **SAGE Edu** está disponível no GitHub, onde pode:
+Maintaining complete and up-to-date documentation is an ongoing challenge, and all help is valuable. The official **SAGE Edu** documentation is available on GitHub, where you can:
 
 * Correct errors
 * Improve explanations
