@@ -1,24 +1,24 @@
-## 📘 Ambiente de Desenvolvimento
+## 📘 Development Environment
 
-Nesta secção apresentamos todos os passos necessários para configurar o ambiente de desenvolvimento do **SAGE Edu**, incluindo preparação do sistema, configuração de dependências e instalação dos módulos Tryton utilizados pelo projeto.
+In this section we present all the steps necessary to configure the **SAGE Edu** development environment, including system preparation, configuration of dependencies and installation of the Tryton modules used by the project.
 
 
-### 🖥️ 1. Preparação do Ambiente
+### 🖥️ 1. Environment Preparation
 
-Antes de iniciar, recomendamos a criação de um ambiente de desenvolvimento isolado, especialmente se precisar trabalhar com múltiplas versões do Python.
-Para isso utilizaremos o [virtualenv](https://virtualenv.pypa.io/en/latest/).
+Before getting started, we recommend creating an isolated development environment, especially if you need to work with multiple versions of Python.
+For this we will use [virtualenv](https://virtualenv.pypa.io/en/latest/).
 
-* 🔧 Instalação do Virtualenv
+* 🔧 Virtualenv Installation
 
-Em distribuições Linux baseadas em Debian, instale o Python 3 e o virtualenv com:
+On Debian-based Linux distributions, install Python 3 and virtualenv with:
 
 ```bash
 sudo apt install python3 virtualenv
 ```
 
-* 🧪 Criação do Ambiente Virtual
+* 🧪 Creation of the Virtual Environment
 
-Crie e ative um ambiente virtual exclusivo para o SAGE Edu:
+Create and activate a unique virtual environment for SAGE Edu:
 
 ```bash
 virtualenv sage_edu_env
@@ -27,18 +27,18 @@ source sage_edu_env/bin/activate
 ```
 
 
-### 🏗️ 2. Instalação e Configuração
+### 🏗️ 2. Installation and Configuration
 
-O SAGE Edu utiliza o Tryton como framework base e o PostgreSQl como gestor de banco dados.
-Instale os pacotes necessários dentro do ambiente virtual:
+SAGE Edu uses Tryton as its base framework and PostgreSQl as its database manager.
+Install the necessary packages within the virtual environment:
 
-#### 📦 Instação do PostgreSQL
+#### 📦 PostgreSQL Installation
 
 ```bash
 sudo apt install postgresql postgresql-contrib
 ```
 
-👤 **Criação do Utilizador**
+👤 **Create User**
 
 ```bash
 sudo su postgres -c "createuser -s sage_edu"
@@ -46,13 +46,13 @@ sudo su postgres -c "createuser -s sage_edu"
 sudo su postgres -c "psql -c \"ALTER ROLE sage_edu WITH PASSWORD 'sage_edu'\""
 ```
 
-⚙️ **Configuração do PostgreSQL**
+⚙️ **PostgreSQL Configuration**
 
-Alguns ficheiros precisam ser ajustados para permitir o acesso adequado.
+Some files need to be adjusted to allow proper access.
 
-* Editar o pg_hba.conf
+* Edit pg_hba.conf
 
-Localize e altere a linha abaixo:
+Find and change the line below:
 ```bash
 DE: 
     local         all            all                        peer
@@ -61,28 +61,28 @@ PARA:
     local         all            all                        md5
 ```
 
-* Editar o postgresql.conf
+* Edit postgresql.conf
 
-Ative o parâmetro de escuta da rede:
+Enable the network listening parameter:
 ```bash
 listen_addresses = '*'
 ```
-Remova o ; no início caso exista.
+Remove the ; at the beginning if it exists.
 
-* Reiniciar o serviço
+* Restart the servic
 
 ```bash
 sudo systemctl restart postgresql
 ```
 
-🗄️ **Criar a Base de Dados**
+🗄️ **Create the Data Base**
 
 ```bash
 createdb -U sage_edu sage_edu_db
 ```
 
 
-#### 📦 Instalação do Trytond
+#### 📦 Trytond Installation
 
 ```bash
 pip install psycopg2-binary
@@ -93,36 +93,36 @@ pip install trytond~=6.8.0
 ```
 
 
-📝 **Criar o Arquivo trytond.conf**
+📝 **Create the file trytond.conf**
 
-Crie o ficheiro de configuração do servidor Tryton:
+Create the Tryton server configuration file:
 
 ```bash
 touch trytond.conf
 ```
 
-Adicione o conteúdo:
+Add content:
 
 ```bash
 [database]
 uri = postgresql://sage_edu:sage_edu@localhost:5432/sage_edu_db
 ```
 
-* 🔧 Inicializar a Base de Dados
+* 🔧 Initialize the Database
 
 ```bash
 trytond-admin -c trytond.conf -d sage_edu_db --all
 ```
 
-🚀 **Iniciar o Servidor Tryton**
+🚀 **Start Tryton Server**
 
 ```bash
 trytond -c trytond.conf
 ```
 
-#### 📦 Instalação dos Módulos SAGE Edu
+#### 📦 SAGE Edu Modules Installation
 
-Após o ambiente Tryton estar configurado, instale os módulos oficiais do SAGE Edu diretamente do GitHub:
+After the Tryton environment is configured, install the official SAGE Edu modules directly from GitHub:
 
 ```bash
 git clone https://github.com/comunidadedosaber/akademy-party
@@ -130,4 +130,4 @@ git clone https://github.com/comunidadedosaber/akademy-company
 git clone https://github.com/comunidadedosaber/akademy-classe
 ```
 
-💡 Nota: Após instalar novos módulos, é recomendado reiniciar o servidor Tryton e executar novamente o trytond-admin para sincronização das tabelas.
+💡 Note: After installing new modules, it is recommended to restart the Tryton server and run trytond-admin again to synchronize the tables.

@@ -1,8 +1,8 @@
-#### Demonstração
+### Demo
 
-##### 🌐 Homepage
+#### 🌐 Homepage
 
-Hospedamos um servidor público de demonstração, onde você pode experimentar o SAGE Education com diferentes perfis de acesso:
+We host a public demo server where you can try out SAGE Education with different access profiles:
 
 - **Website:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
 - **App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao) 
@@ -10,15 +10,17 @@ Hospedamos um servidor público de demonstração, onde você pode experimentar 
 
 | Perfil     | Usuário    | Senha           |
 |------------|------------|-----------------|
-| Discente   | aluno      | sage_aluno      |
-| Docente    | docente    | sage_docente    |
-| Secretaria | secretaria | sage_secretaria |
-| Direção    | direcao    | sage_direcao    |
+| Student    | aluno      | sage_aluno      |
+| Teacher    | docente    | sage_docente    |
+| Secretary  | secretaria | sage_secretaria |
+| Direction  | direcao    | sage_direcao    |
+| Admin      | admin      | sage_admin      |
+| Admin Eng  | admin_eng  | sage_admin      |
 
 
-##### 💬 Suporte Técnico
+#### 💬 Technical Support
 
-Caso encontre erros ou deseje obter suporte técnico, entre em contato pelos canais abaixo:
+If you encounter any errors or require technical support, please contact us through the channels below:
 
 - 📧 **E-mail:** 
     -   [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)

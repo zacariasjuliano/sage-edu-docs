@@ -1,14 +1,28 @@
-## 📘 Introdução
+## 📘 About the Project
 
-**O SAGE Education** é um projeto ***livre e gratuito*** para ***educadores, instituições de ensino e governos***.
-Ele fornece a funcionalidade de **Sistema de Gestão Académica (SGA), Sistema de Gestão Escolar (SGE) e Sistema de Informação Educacional (SIE)**.
-O seu design ***modular, escalável e seguro*** permite que seja implementado em muitos cenários diferentes: desde ***pequenas escolas*** e ***centros de formação*** até ***grandes sistemas nacionais de educação pública***.
+**SAGE Education** is a ***free and open-source*** project for ***educators, educational institutions, and governments***.
+It provides the functionality of **Academic Management System (AMS), School Management System (SMS), and Educational Information System (EIS)**.
+Its ***modular, scalable, and secure*** design allows it to be implemented in many different scenarios: from **small schools** and **training centers** to **large national public education systems**.
 
-O SAGE Education conta com uma comunidade crescente, comprometida e amigável que traz o melhor dos campos das ***ciências da educação, pedagogia, tecnologia educacional e ciências da computação***.
-Não importa onde no mundo você vive, somos apaixonados por manter a educação e a tecnologia educacional como um direito humano inegociável.
+SAGE Education has a growing, committed, and friendly community that brings together the best in the fields of ***educational sciences, pedagogy, educational technology, and computer science***.
+No matter where in the world you live, we are passionate about upholding education and educational technology as a non-negotiable human right.
 
-Esperamos que você considere o **SAGE Education** motivador e inspirador, e estamos ansiosos para tê-lo como parte da equipe.
-
+We hope you find **SAGE Education** motivating and inspiring, and we look forward to having you as part of the team.
 
 ---
 
+## ⚙️ Modules
+
+### Akademy Party Module
+
+The **Akademy Party (Entity Management)** is a complementary module responsible for **expanding the functionalities** of the **Entity Management** module, offering advanced tools for managing entities within the organization.  
+
+###  Akademy Company Module
+
+The **Akademy Company (Institution Management)** module is a complementary module responsible for **expanding the functionalities** of the **Organization Management** module, offering advanced tools for managing organizations. 
+
+### ⚙️ Akademy Class Module
+
+The **Akademy Class (Class Management)** module is a complementary module responsible for **academic management focused on classes**, keeping all information organized and accessible to the institution.
+
+It offers advanced tools for **controlling classes, teachers, and students**, allowing for centralized and efficient monitoring of each student's performance and progress.
