@@ -1,128 +1,129 @@
-#### Gestão de Matrículas
+#### Enrollment Management
 
-A sessão da secretaria é responsável pela gestão das matrículas, turmas e avaliações. Nela é possível manter o controlo de toda a vida académica dos discentes e docentes, facilitando a emissão de documentos, a publicação de pautas e o atendimento às necessidades dos utentes da secretaria e da direção da instituição.
-
-
-##### Candidatos
-
-Na imagem acima, podemos observar as informações de uma candidatura vinculada ao candidato. É possível visualizar dados relacionados ao nível académico, fase, modalidade e o resultado final da candidatura.
-
-![Texto alternativo](../../imagens/candidatura.png)
-
----
-
-##### Transferências
-
-Esta sessão permite a gestão de duas modalidades de transferência: interna e externa.
-
-* Transferência interna refere-se a discentes que estão a sair da instituição para ingressar noutra.
-
-* Transferência externa refere-se a discentes que estão a entrar na instituição provenientes de outra.
-
-**Transferências internas**
-
-Para cadastrar uma nova transferência interna, é necessário ter um discente previamente matriculado no sistema. Em seguida:
-
-1. Clicamos em “Novo”
-
-2. Procuramos o discente que desejamos identificar como transferido
-
-3. Podemos adicionar uma descrição e associar disciplinas existentes no percurso académico
-
-4. Clicamos em “Salvar” e confirmamos a operação
-
-![Texto alternativo](../../imagens/transferencia_interna.png)
+The registrar's office is responsible for managing enrollments, classes, and assessments. It allows for the control of all academic activities of students and faculty, facilitating the issuance of documents, the publication of agendas, and addressing the needs of users of the registrar's office and the institution's administration.
 
 
-**Transferências externas**
+##### Candidates
 
-Para cadastrar uma transferência externa:
+In the image above, we can see the information of an application linked to the candidate. It is possible to view data related to the academic level, phase, modality, and the final result of the application.
 
-1. Clicamos em “Novo”
-
-2. Procuramos a entidade que desejamos identificar como discente transferido
-
-3. Preenchemos os demais dados
-
-4. Clicamos em “Salvar” e confirmamos
-
-Caso se deseje informar as disciplinas que o discente frequentou noutra instituição, basta inserir o nome da disciplina, classe e média. Assim, no momento da matrícula, o sistema poderá identificar corretamente a classe onde o discente deve ser posicionado.
-
-![Texto alternativo](../../imagens/transferencia_externa.png)
+![Alternative text](../../imagens/candidatura.png)
 
 ---
 
-##### Efetuar Matrícula
+##### Transfers
 
-O assistente de matrículas permite realizar matrículas de forma dinâmica. É necessário informar o tipo de matrícula — candidato, transferido ou discente previamente matriculado.
+This section allows the management of two types of transfers: internal and external.
 
-Para efetuar uma matrícula:
+* Internal transfer refers to students leaving the institution to join another.
 
-1. Selecionamos o tipo de matrícula desejada
+* External transfer refers to students entering the institution from another institution.
 
-2. Preenchemos os campos necessários
 
-3. Clicamos em “Matricular” para continuar
+**Internal Transfers**
 
-4. Caso desejemos cancelar, clicamos em “Cancelar”
+To register a new internal transfer, a student must be previously enrolled in the system. Then:
 
-5. Esta abordagem garante flexibilidade e controlo no processo de matrícula.
+1. Click on “New”
 
-![Texto alternativo](../../imagens/matriculas.png)
+2. Search for the student you wish to identify as transferred
 
----
+3. You can add a description and associate existing subjects in their academic record
 
-##### Associar Disciplina
+4. Click on “Save” and confirm the operation.
 
-O assistente de associação de disciplinas permite associar disciplinas de uma turma específica a determinados discentes. É utilizado quando um discente está matriculado numa turma, mas ainda não possui disciplinas vinculadas.
+![Alternative text](../../imagens/transferencia_interna.png)
 
-Para realizar a associação:
 
-1. Informamos a turma desejada
+**External Transfers**
 
-2. Clicamos em “Associar”
+To register an external transfer:
 
-3. Caso desejemos cancelar, clicamos em “Cancelar”
+1. Click on “New”
 
-Este assistente facilita a organização das disciplinas atribuídas aos discentes, garantindo uma gestão eficiente do currículo académico.
+2. Search for the institution you wish to identify as the transferred student
 
-![Texto alternativo](../../imagens/asociar_disciplina.png)
+3. Fill in the remaining data
 
----
+4. Click on “Save” and confirm
 
-##### Avaliar Candidatura
+If you wish to inform the subjects the student took at another institution, simply enter the subject name, class, and grade. This way, at the time of enrollment, the system can correctly identify the class where the student should be placed.
 
-O assistente de avaliação de candidaturas permite analisar os candidatos inscritos e determinar se serão aprovados ou reprovados.
-
-Para realizar a avaliação:
-
-1. Informamos o critério de admissão desejado
-
-2. Todas as candidaturas que cumprirem esse critério serão incluídas
-
-3. Clicamos em “Avaliar” para iniciar o processo
-
-4. Caso necessário, clicamos em “Cancelar” para anular a operação
-
-Esta ferramenta garante uma seleção criteriosa, eficiente e transparente.
-
-![Texto alternativo](../../imagens/avaliar_candidatura.png)
+![Alternative text](../../imagens/transferencia_externa.png)
 
 ---
 
-##### Mudança de Matrícula
+##### Enrollment Process
 
-O assistente de mudança de matrícula permite transferir um discente para outra área, curso, turma ou período.
+The enrollment assistant allows you to enroll students dynamically. You need to specify the type of enrollment — candidate, transfer student, or previously enrolled student.
 
-Para efetuar a mudança:
+To enroll:
 
-1. Selecionamos o discente desejado
+1. Select the desired enrollment type.
 
-2. Indicamos a nova turma ou destino
+2. Fill in the required fields.
 
-3. Clicamos em “Mudar” para confirmar
+3. Click "Enroll" to continue.
 
-Esta ferramenta oferece flexibilidade na gestão académica, permitindo ajustes conforme as necessidades dos discentes e da instituição.
+4. If you wish to cancel, click "Cancel".
 
-![Texto alternativo](../../imagens/mudanca_matricula.png)
+5. This approach ensures flexibility and control in the enrollment process.
+
+![Alternative text](../../imagens/matriculas.png)
+
+---
+
+##### Assigning Discipline
+
+The course assignment wizard allows you to associate courses from a specific class to certain students. It is used when a student is enrolled in a class but does not yet have any courses linked to them.
+
+To perform the association:
+
+1. Enter the desired class
+
+2. Click on “Associate”
+
+3. If you wish to cancel, click on “Cancel”
+
+This wizard facilitates the organization of courses assigned to students, ensuring efficient management of the academic curriculum.
+
+![Alternative text](../../imagens/asociar_disciplina.png)
+
+---
+
+##### Evaluate Applications
+
+The application evaluation assistant allows you to analyze registered candidates and determine whether they will be approved or rejected.
+
+To perform the evaluation:
+
+1. Specify the desired admission criteria.
+
+2. All applications that meet these criteria will be included.
+
+3. Click "Evaluate" to start the process.
+
+4. If necessary, click "Cancel" to undo the operation.
+
+This tool ensures a thorough, efficient, and transparent selection process.
+
+![Alternative text](../../imagens/avaliar_candidatura.png)
+
+---
+
+##### Student Registration Change
+
+The registration change tool allows you to transfer a student to another area, course, class, or semester.
+
+To make the change:
+
+1. Select the desired student
+
+2. Indicate the new class or destination
+
+3. Click "Change" to confirm
+
+This tool offers flexibility in academic management, allowing adjustments according to the needs of students and the institution.
+
+![Alternative text](../../imagens/mudanca_matricula.png)
 

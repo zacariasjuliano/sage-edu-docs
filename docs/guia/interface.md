@@ -1,65 +1,69 @@
-#### Interface Gráfica
+### Graphical Interface
 
-A seguir iremos descrever o ambiente de trabalho de modo o utilizador familiarizar-se com a interface e componentes que constituem o SAGE Education, visando facilitar o uso da plataforma.
-A figura abaixo apresenta o ambiente de trabalho SAGE Education, onde maior parte das atividades serão realizadas, para tal vamos fazer descrição das opção que esta interface dispõe.
+Next, we will describe the work environment so that the user can become familiar with the interface and components that make up SAGE Education, aiming to facilitate the use of the platform.
 
-![Texto alternativo](../imagens/sage-edu.png)
+The figure below shows the SAGE Education work environment, where most of the activities will be carried out; to do this, we will describe the options that this interface provides.
 
-
-- ***Menu lateral:*** a barra menu lateral esquerda ou barra de menu, permite que possamos acessar as funcionalidades de cada módulo, nela temos diversas opções de acordo aos módulos instalados.
-- ***Janela central:*** a janela central permite que interface possa alternar entre vista de listagem ou edição de dados. No ato de cadastro ou edição de registo esta é a área responsável por esta ação.
-- ***Barra superior:*** no topo da interface, temos a barra superior, onde são agrupas todas as janela ou menus que estão abertos.
-- ***Barra de gestão:*** a barra de gestão ou opções dispões de uma serie de funcionalidade, ela permite fazer toda a gestão dos registos, bem como a inserção de novos cadastrados
-
-![Texto alternativo](../imagens/barra_opcoes.png)
-
-Nela podemos observar que há vários botões, em que cada botão representa uma ação, que nós da acesso a uma determinada atividade, vamos começar por fazer a descrição da figura, da esquerda para a direita.
+![Alternative text](../imagens/sage-edu.png)
 
 
-![Texto alternativo](../imagens/mudanca_visao.png) ***Mudança de visão***
+- ***Side Menu:*** The left side menu bar, or menu bar, allows us to access the functionalities of each module. It offers various options depending on the installed modules.
 
-Ela permite alterar a visão das informações, muda de listagem de registo para edição de dados, ou vice versa.
+- ***Central Window:*** The central window allows the interface to switch between listing view and data editing. This area is responsible for this action during registration or editing.
 
-![Texto alternativo](../imagens/voltar_avancar.png) ***Voltar/Avançar***
+- ***Top Bar:*** At the top of the interface, we have the top bar, where all open windows or menus are grouped.
 
-Ela permite avançar ou regressar a um determinado registo, independente da visão em que estiver.
+ ***Management Bar:*** The management bar, or options bar, offers a series of functionalities. It allows for the management of all records, as well as the insertion of new registrations.
 
-![Texto alternativo](../imagens/novo.png) ***Novo registo***
+![Alternative text](../imagens/barra_opcoes.png)
 
-Ela permite a inserção de novos registos na plataforma.
+In it we can see that there are several buttons, each representing an action that gives us access to a specific activity. Let's start by describing the figure, from left to right.
 
-![Texto alternativo](../imagens/salvar.png) ***Salvar registo/alterações***
 
-Eela permite salvar novos registos, bem com as alterações feitas em determinado registo.
+![Alternative text](../imagens/mudanca_visao.png) ***Change View***
 
-![Texto alternativo](../imagens/anular.png) ***Anular alterações***
+It allows you to change the view of the information, switching from record listing to data editing, or vice versa.
 
-Permite reverter as alterações feitas em registo antes desse ser salvo, também permite atualizar um dado registo ou a listagem de registo.
+![Alternative text](../imagens/voltar_avancar.png) ***Back/Forward***
 
-![Texto alternativo](../imagens/gerir_anexo.png) ***Gerir anexo***
+It allows you to move forward or backward to a specific record, regardless of the view you are in.
 
-Permite anexar documentos a uma determinada entidade.
+![Alternative text](../imagens/novo.png) ***New record***
 
-![Texto alternativo](../imagens/apontamento.png) ***Apontamento*** 
+It allows the insertion of new records into the platform.
 
-Permite que o utilizador que estiver com acesso ao sistema possa deixar uma mensagem, nota ou informação ao registo que estiver selecionado.
+![Alternative text](../imagens/salvar.png) ***Save the changes in the record***
 
-![Texto alternativo](../imagens/executar.png) ***Executar ação***
+And it allows you to save new records, as well as the changes made to a specific record.
 
-Permite executar uma determinada ação, previamente definida.
+![Alternative text](../imagens/anular.png) ***Undo changes***
 
-![Texto alternativo](../imagens/relacionar.png) ***Relacionar***
+It allows you to revert changes made to a record before it was saved, and also allows you to update a given record or the record listing.
 
-Permite que visualizemos as relações entre as diferentes partes do sistema para com o registo.
+![Alternative text](../imagens/gerir_anexo.png) ***Manage attachment***
 
-![Texto alternativo](../imagens/impresora.png) ***Impressora***
+Allows you to attach documents to a specific entity.
 
-Permite as mesmas funcionalidades que o relatório, somente com o deferencial de que este não gera um documento digital, mas sim imprime o documento, gerando assim um documento físico.
+![Alternative text](../imagens/apontamento.png) ***Note*** 
 
-![Texto alternativo](../imagens/email.png) ***E-mail***
+It allows the user with access to the system to leave a message, note, or information on the selected record.
 
-Permite que possamos enviar um e-mail ao registo selecionado.
+![Alternative text](../imagens/executar.png) ***Execute action***
 
-![Texto alternativo](../imagens/barra_pesquisa.png) ***Barra de Pesquisa***
+It allows you to perform a specific action that has been previously defined.
 
-Permite que possamos realizar pesquisas, em um determinado campo.
+![Alternative text](../imagens/relacionar.png) ***Relate***
+
+It allows us to visualize the relationships between the different parts of the system and the record.
+
+![Alternative text](../imagens/impresora.png) ***Printer***
+
+It offers the same functionalities as the report, with the only difference being that this one does not generate a digital document, but rather prints the document, thus generating a physical document.
+
+![Alternative text](../imagens/email.png) ***E-mail***
+
+This allows us to send an email to the selected registration.
+
+![Alternative text](../imagens/barra_pesquisa.png) ***Search bar***
+
+It allows us to conduct research in a specific field.

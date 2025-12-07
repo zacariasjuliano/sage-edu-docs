@@ -1,50 +1,50 @@
-#### Gestão de Turmas
+#### Class Management
 
-O menu Turmas é responsável por fazer a gestão das turmas, permitindo a criação de novas turmas, a associação de discentes e docentes juntamente com as suas respetivas disciplinas, além da elaboração de horários e planos de aula. Para cadastrar novas turmas, é necessário ter previamente definido um ano letivo, planos de estudo e as respetivas avaliações.
+The Classes menu is responsible for managing classes, allowing the creation of new classes, the association of students and teachers along with their respective subjects, as well as the creation of schedules and lesson plans. To register new classes, it is necessary to have previously defined an academic year, study plans, and the respective assessments.
 
-![Texto alternativo](../../imagens/turmas.png)
+![Alternative text](../../imagens/turmas.png)
 
-Ao clicar no botão “Novo”, é possível inserir os dados da turma, incluindo o limite de discentes e docentes. Na aba de discentes, é possível associar novos estudantes às suas disciplinas correspondentes; e, na aba de docentes, informar as disciplinas que serão lecionadas na turma. Na secção de horários, é possível definir o tempo letivo de cada aula, enquanto na área de Plano de Aula mantemos o registo das aulas ministradas pelos docentes. Ao finalizar, clicamos em Salvar para confirmar as alterações. Essa abordagem proporciona uma gestão eficiente e organizada das atividades relacionadas às turmas.
-
----
-
-##### Discentes
-
-A interface de discentes possibilita a administração efetiva dos estudantes, contendo as informações disponíveis na secção de discentes em turmas. A gestão pode ser feita tanto nesta secção específica quanto na secção de turmas. Ambas as opções oferecem funcionalidades para gerir e controlar informações relacionadas aos discentes, proporcionando flexibilidade na administração académica.
-
-![Texto alternativo](../../imagens/lista_alunos.png)
+By clicking the “New” button, you can enter the class data, including the student and teacher limits. In the student tab, you can associate new students with their corresponding subjects; and in the teacher tab, you can specify the subjects that will be taught in the class. In the timetable section, you can define the class time for each lesson, while in the Lesson Plan area we keep a record of the lessons taught by the teachers. When finished, we click Save to confirm the changes. This approach provides efficient and organized management of activities related to classes.
 
 ---
 
-##### Docentes
+##### Students
 
-A interface de docentes oferece a capacidade de gerir informações relacionadas aos professores. A gestão pode ser realizada tanto nesta secção específica quanto na secção de turmas. Ambas as opções disponibilizam funcionalidades para administrar e controlar os dados dos docentes, proporcionando flexibilidade na gestão académica.
+The student interface enables effective student management, containing the information available in the student section within classes. Management can be done in this specific section as well as in the class section. Both options offer resources to manage and control student-related information, providing flexibility in academic administration.
 
-![Texto alternativo](../../imagens/lista_docentes.png)
-
----
-
-##### Disciplina
-
-A interface de disciplina oferece a capacidade de gerar e imprimir pautas de exame especial, recurso e mini-pautas, de acordo com a disciplina selecionada.
-
-![Texto alternativo](../../imagens/pauta_disciplina.png)
+![Alternative text](../../imagens/lista_alunos.png)
 
 ---
 
-##### Plano de Aula
+##### Teacher
 
-A interface de plano de aula permite aos docentes inserirem os seus planos de aula, mantendo assim um histórico das aulas lecionadas ao longo do ano letivo.
+The faculty interface offers the ability to manage information related to professors. Management can be performed both in this specific section and in the class section. Both options provide resources to administer and control professor data, offering flexibility in academic management.
 
-![Texto alternativo](../../imagens/plano_aula.png)
+![Alternative text](../../imagens/lista_docentes.png)
 
 ---
 
-##### Avaliar
+##### Discipline
 
-O assistente de avaliação de turmas ou discentes possibilita, ao final de cada ano letivo, avaliar o desempenho dos estudantes em uma turma específica. Isso permite determinar quais discentes irão progredir para a próxima série e quais precisarão repetir o ano.
+The subject interface offers the ability to generate and print special exam answer sheets, appeals, and mini-schedules, according to the selected subject.
 
-![Texto alternativo](../../imagens/avaliar_turma.png)
+![Alternative text](../../imagens/pauta_disciplina.png)
 
-Ao utilizar o assistente, é possível escolher entre avaliar a turma como um todo ou avaliar um discente em particular. Após fazer a escolha desejada, preenchemos os campos obrigatórios e clicamos em Prosseguir para continuar a avaliação, ou em Cancelar para anular o processo. Essa ferramenta proporciona uma avaliação abrangente do desempenho académico, auxiliando na tomada de decisões relacionadas à progressão dos discentes.
+---
+
+##### Lesson Plan
+
+The lesson plan interface allows teachers to enter their lesson plans, thus maintaining a record of the lessons taught throughout the school year.
+
+![Alternative text](../../imagens/plano_aula.png)
+
+---
+
+##### Evaluate Class
+
+The class evaluate performance in a specific lective year at the end of each school year. This makes it possible to determine which students will progress to the next grade and which will need to repeat the year.
+
+![Alternative text](../../imagens/avaliar_turma.png)
+
+When using the assistant, it is possible to evaluating the class in the selected year. After making the desired choice,  click Proceed to continue the evaluation, or Cancel to undo the process. This tool provides a comprehensive assessment of academic performance, assisting in decision-making related to student progression.
 

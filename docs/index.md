@@ -1,21 +1,21 @@
-# Manual do Utilizador - SAGE Education
+# User Manual - SAGE Education
 
-O SAGE Education é um sistema integrado de Informática Aplicada à Educação, desenvolvido para apoiar a gestão académica e administrativa das instituições de ensino.
-Com uma arquitetura modular, segura e escalável, a plataforma permite gerir entidades, matrículas, turmas, avaliações, percursos académicos e demais processos essenciais ao funcionamento escolar.
+SAGE Education is an integrated IT system applied to education, developed to support the academic and administrative management of educational institutions.
+With a modular, secure and scalable architecture, the platform allows you to manage entities, enrollments, classes, assessments, academic paths and other processes essential to school functioning.
 
-Este manual apresenta as funcionalidades, operações e procedimentos necessários para a utilização eficiente dos módulos que compõem o Sistema de Gestão Académica (SGA), servindo como guia de referência para secretarias, docentes, direção e demais utilizadores.
+This manual presents the functionalities, operations and procedures necessary for the efficient use of the modules that make up the Academic Management System (AMS), serving as a reference guide for secretariats, teachers, management and other users.
 
 
 ```bash
 
-SAGE Education — Sistema Aberto de Gestão Educacional
-Uma plataforma livre e modular para administração académica e escolar.
+SAGE Education — Open Educational Management System
+A free and modular platform for academic and school administration.
 
 ```
 
 
-* Organização: Comunidade do Saber
+* Organization: Homem Marketing
 
-* Autor: Zacarias J. Capingala
+* Author: Zacarias J. Capingala
 
-* Data: Novembro/2025
+* Date: November/2025

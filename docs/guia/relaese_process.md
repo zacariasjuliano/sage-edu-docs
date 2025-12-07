@@ -1,34 +1,34 @@
-## 📘 Processo de Desenvolvimento
+## 📘 Development Process
 
-O **SAGE Education** segue um ciclo de desenvolvimento estruturado, garantindo qualidade, segurança e estabilidade a cada nova versão. As versões estáveis são disponibilizadas anualmente (a cada 12 meses). Entre estes lançamentos, são distribuídas:
+**SAGE Education** follows a structured development cycle, ensuring quality, security and stability with each new version. Stable releases are made available annually (every 12 months). Among these releases, the following are distributed:
 
-* Atualizações trimestrais (a cada 3 meses), trazendo melhorias, otimizações e pequenas funcionalidades.
+* Quarterly updates (every 3 months), bringing improvements, optimizations and small features.
 
-* Atualizações mensais de segurança, garantindo a integridade e proteção do sistema.
-
-
-### 🔄 Etapas do Processo de Lançamento
-
-O processo de lançamento de uma nova versão estável é cuidadosamente coordenado:
-
-* 1. Congelamento de Funcionalidades (Feature Freeze)
-Aproximadamente dois meses antes do lançamento da versão estável, novas funcionalidades deixam de ser adicionadas. O foco passa a ser estabilização, testes e correções de erros.
-
-* 2. Congelamento de Código (Code Freeze)
-Cerca de um mês antes do lançamento, entra-se no período de code freeze, no qual apenas correções críticas são permitidas. Nesta fase é gerada a release candidate (RC).
-
-* 3. Atualização dos Ambientes e Comunicação às Equipas
-Com a RC disponível, o [servidor comunitário de demonstração](https://sage.comunidadedosaber.ao) é atualizado, permitindo que utilizadores e parceiros validem a nova versão. As equipas de documentação, suporte e integração também são notificadas para iniciar os seus processos de adaptação.
-
-* 4. Lançamento da Versão Estável
-Após validação, testes finais e ajustes necessários, a versão estável é oficialmente disponibilizada.
+* Monthly security updates, ensuring system integrity and protection.
 
 
-### 📦 Versão Estavel
+### 🔄 Launch Process Steps
 
-A versão estável atual do **SAGE Education** é a 1.0, desenvolvida sobre a base do Trytond 6.8.
+The process of releasing a new stable version is carefully coordinated:
 
-As datas previstas para as próximas versões serão anunciadas conforme o progresso da comunidade e podem sofrer alterações.
+* 1. Feature Freeze
+Approximately two months before the release of the stable version, new features are no longer added. The focus becomes stabilization, testing and bug fixes.
+
+* 2. Code Freeze
+About a month before release, the code freeze period enters, in which only critical fixes are allowed. At this stage, the release candidate (RC) is generated.
+
+* 3. Update of Environments and Communication to Teams
+With the RC available, the [demo community server](https://sage.comunidadedosaber.ao) is updated, allowing users and partners to validate the new version. Documentation, support and integration teams are also notified to begin their adaptation processes.
+
+* 4. Stable Version Release
+After validation, final tests and necessary adjustments, the stable version is officially available.
+
+
+### 📦 Stable Version
+
+The current stable version of **SAGE Education** is 1.0.0, developed on the basis of Trytond 6.8.14.
+
+The expected dates for the next versions will be announced according to the community's progress and may change.
 
 
 ---

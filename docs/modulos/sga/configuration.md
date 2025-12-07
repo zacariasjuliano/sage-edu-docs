@@ -1,72 +1,77 @@
-#### Configurações
+#### Settings
 
-O menu de configurações tem como finalidade oferecer suporte às operações de matrícula, acompanhamento e avaliação dos discentes pela área pedagógica da instituição.
-Esse menu é essencial para configurar e personalizar o sistema de acordo com as necessidades, normas e regras nas quais a instituição está inserida, garantindo assim eficiência e adequação às políticas e processos pedagógicos.
+The purpose of the settings menu is to support the enrollment, monitoring, and evaluation of students by the institution's pedagogical area.
+
+This menu is essential for configuring and customizing the system according to the needs, norms, and rules in which the institution is involved, thus ensuring efficiency and compliance with pedagogical policies and processes.
 
 
-##### Duplicar
+##### Duplicate
 
-O assistente de duplicação permite criar cópias das informações de um plano de estudos para outro. Essa funcionalidade possibilita duplicar tanto disciplinas quanto avaliações de um plano para outro.
+The duplication wizard allows you to create copies of information from one study plan to another. This feature makes it possible to duplicate both subjects and assessments from one plan to another.
 
-Para duplicar disciplinas, é necessário informar apenas os planos de estudos desejados.
-Caso se pretenda duplicar avaliações, será necessário informar também as disciplinas para as quais se deseja realizar a cópia.
+To duplicate subjects, you only need to specify the desired study plans.
 
-![Texto alternativo](../../imagens/conf_duplicar.png)
+If you want to duplicate assessments, you will also need to specify the subjects for which you want to make the copy.
 
-Após fornecer essas informações, basta clicar em "Copiar" para efetuar a duplicação ou em "Cancelar" para anular o processo.
-Essa ferramenta simplifica o processo de replicação de informações entre diferentes anos letivos para determinados planos de estudos, proporcionando maior agilidade e eficiência na gestão académica.
+![Alternative text](../../imagens/conf_duplicar.png)
 
----
-
-##### Níveis Académicos
-
-A interface de níveis académicos permite a gestão dos níveis oferecidos pela instituição.
-Nela, é possível visualizar todos os níveis existentes, adicionar novos níveis e definir as suas caráterísticas específicas.
-
-![Texto alternativo](../../imagens/niveis_academicos.png)
+After providing this information, simply click "Copy" to duplicate it or "Cancel" to undo the process.
+This tool simplifies the process of replicating information between different academic years for specific study plans, providing greater speed and efficiency in academic management.
 
 ---
 
-##### Sala de Aulas
+##### Academic Levels
 
-A gestão de salas de aula é realizada nesta interface, permitindo o registo de novas salas.
-Para criar uma sala de aula, basta clicar em "Novo", inserir os dados necessários e, em seguida, clicar em "Salvar" para concluir o processo.
+The academic levels interface allows you to manage the levels offered by the institution.
 
-![Texto alternativo](../../imagens/salas_aulas.png)
+In it, you can view all existing levels, add new levels, and define their specific characteristics.
 
----
-
-##### Métricas
-
-A gestão de métricas (ou avaliações) é feita nesta interface, onde é possível visualizar todas as métricas existentes.
-Para criar uma nova métrica, basta clicar em "Novo", informar os dados necessários e, em seguida, clicar em "Salvar".
-
-Cada métrica contém informações como a avaliação, o tipo de avaliação e o nome da métrica.
-
-![Texto alternativo](../../imagens/metricas.png)
+![Alternative text](../../imagens/niveis_academicos.png)
 
 ---
 
-##### Ano Letivos
+##### Classroom
 
-A interface de anos letivos permite realizar uma gestão completa dos períodos letivos.
-Nela, é possível definir trimestres, fases e critérios de admissão, planos de estudos e criar novas turmas.
+Classroom management is performed in this interface, allowing the registration of new classrooms.
+To create a classroom, simply click "New," enter the necessary data, and then click "Save" to complete the process.
 
-Ao clicar em "Novo", é possível criar um novo ano letivo, informando o período de início e fim desejado.
+![Alternative text](../../imagens/salas_aulas.png)
 
-![Texto alternativo](../../imagens/ano_lectivo.png)
+---
 
-* Para definir os períodos trimestrais, clicamos na aba "Trimestres". Ao clicar em "Novo", adicionamos os períodos letivos desejados.
+##### Metrics
 
-* Para definir as fases de admissão, clicamos na aba "Fases". Em "Novo", adicionamos as fases e seus respetivos critérios de admissão.
+Metrics (or ratings) management is done in this interface, where you can view all existing metrics.
+To create a new metric, simply click "New," enter the necessary data, and then click "Save."
 
-* Para definir os planos de estudos do ano letivo, clicamos na aba "Planos de Estudos". Em "Novo", incluímos novos planos, bem como as disciplinas e avaliações que farão parte de cada um.
+Each metric contains information such as rating, rating type, and metric name.
 
-Além disso, é possível criar novas turmas diretamente por esta interface, caso não se deseje realizar essa ação pelo menu Turmas.
-Essas funcionalidades proporcionam uma gestão abrangente e integrada dos elementos-chave associados ao ano letivo.
+![Alternative text](../../imagens/metricas.png)
 
+---
 
-**Observação**
+##### School Year
 
-No menu de configurações existe o sub-menu Pré-Configurados, onde estão disponíveis algumas configurações prontas para uso.
-Podem ser adicionadas outras configurações conforme as necessidades da instituição.
+The academic year interface allows for complete management of academic periods.
+
+In it, you can define trimesters, phases and admission criteria, study plans, and create new classes.
+
+By clicking "New," you can create a new academic year, specifying the desired start and end dates.
+
+![Alternative text](../../imagens/ano_lectivo.png)
+
+* To define the quarterly periods, click on the "Quarters" tab. By clicking "New", add the desired academic periods.
+
+* To define the admission phases, click on the "Phases" tab. In "New", add the phases and their respective admission criteria.
+
+* To define the study plans for the academic year, click on the "Study Plans" tab. In "New", include new plans, as well as the subjects and assessments that will be part of each one.
+
+In addition, it is possible to create new classes directly through this interface, if you do not wish to perform this action through the Classes menu.
+
+These resources provide comprehensive and integrated management of the key elements associated with the academic year.
+
+**Observation**
+
+In the settings menu, there is a sub-menu called Pre-Configured, where some ready-to-use settings are available.
+
+Other settings can be added as needed by the institution.

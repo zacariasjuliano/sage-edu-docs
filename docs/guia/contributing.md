@@ -1,20 +1,20 @@
-## 📘 Contibuições
+## 📘 Contributions
 
-O **SAGE Education** é um projeto ***livre e gratuito*** para ***educadores, instituições de ensino e governos***. Toda contribuição é bem-vinda, e há várias formas de participar — muitas delas não exigem conhecimentos técnicos de programação.
+**SAGE Education** is a ***free and open-source*** project for ***educators, educational institutions, and governments***. All contributions are welcome, and there are several ways to participate — many of which do not require technical programming knowledge.
 
 
-### 🌍 Tradução do Software
+### 🌍 Software Translation
 
-A atualmente o **SAGE Education** está disponível apenas em **português** e **inglês**. 
+Currently, **SAGE Education** is only available in **Portuguese** and **English**.
 
-A expansão para novos idiomas é essencial para ampliar o impacto do projeto e garantir que possa ser utilizado na língua nativa de cada utilizador.
+Expanding to new languages ​​is essential to broaden the project's impact and ensure it can be used in each user's native language.
 
-Você pode contribuir de duas formas:
+You can contribute in two ways:
 
-* **Melhorando as traduções existentes**
-* **Criando uma nova tradução** para o seu idioma
+* **Improving existing translations**
+* **Creating a new translation** for your language
 
-Traduzir o **SAGE Edu** é simples e não requer conhecimentos avançados. Basta copiar um arquivo `.po` e ajustar o seu conteúdo conforme o idioma desejado, para o caso de novas traduções.
+Translating **SAGE Edu** is simple and requires no advanced knowledge. Simply copy a `.po` file and adjust its content to suit your desired language, in the case of new translations.
 
 
 ### 📝 Escrita e Melhoria da Documentação
@@ -22,23 +22,23 @@ Traduzir o **SAGE Edu** é simples e não requer conhecimentos avançados. Basta
 Manter uma documentação completa e atualizada é um desafio contínuo, e toda ajuda é valiosa.
 A documentação oficial do **SAGE Edu** está disponível no GitHub, onde pode:
 
-* Corrigir erros
-* Melhorar explicações
-* Criar novos tópicos
-* Atualizar informações desatualizadas
+* Correct errors
+* Improve explanations
+* Create new topics
+* Update outdated information
 
-#### 🧩 Normas de Codificação
+#### 🧩 Coding Guidelines
 
-O SAGE Edu segue:
+SAGE Edu follows:
 
-* As [normas de desenvolvimento](https://www.tryton.org/develop/guidelines/code) recomendadas pela comunidade do framework Tryton
+* The [development standards](https://www.tryton.org/develop/guidelines/code) recommended by the Tryton framework community
 
-* As boas práticas do [Python](https://www.python.org/dev/peps/pep-0008/) (PEP 8)
+* The best practices of [Python](https://www.python.org/dev/peps/pep-0008/) (PEP 8)
 
-* O projeto é desenvolvido em Python, e o [código-fonte](https://github.com/comunidadedosaber) está disponível no GitHub:
+* The project is developed in Python, and the [source code](https://github.com/comunidadedosaber) is available on GitHub:
 
 
-Para obter uma cópia do projeto:
+To obtain a copy of the project:
 
 ```bash
 git clone https://github.com/comunidadedosaber/akademy-party
@@ -46,9 +46,8 @@ git clone https://github.com/comunidadedosaber/akademy-company
 git clone https://github.com/comunidadedosaber/akademy-classe
 ```
 
+### 🐞 Reporting Bugs
 
-### 🐞 Reportar Bugs
+As with any software, errors can occur. We are always working to identify and correct them, but the community plays a fundamental role in this process.
 
-Como em qualquer software, erros podem ocorrer. Estamos sempre a trabalhar para os identificar e corrigir, mas a comunidade desempenha um papel fundamental neste processo.
-
-Se encontrar algum bug, comportamento inesperado ou falha, pedimos que comunique através dos canais oficiais do projeto. A sua ajuda contribui diretamente a melhorar a qualidade e estabilidade do sistema.
+If you find any bugs, unexpected behavior, or failures, please report them through the project's official channels. Your help directly contributes to improving the quality and stability of the system..

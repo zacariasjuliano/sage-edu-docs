@@ -1,69 +1,69 @@
-#### Gestão de Avaliações
+#### Assessment Management
 
-Gestão de Avaliações
+Assessment Management
 
-O menu Avaliações é responsável por fazer a gestão das avaliações dos discentes de uma dada turma. Nele, é possível lançar notas, criar pautas e gerar o histórico académico dos estudantes.
-
----
-
-##### Publicar Notas
-
-O assistente de publicação de notas simplifica a atribuição de notas aos alunos, facilitando a geração de uma lista nominal de discentes com base nas avaliações inseridas.
-
-![Texto alternativo](../../imagens/gerar_notas.png)
-
-Para criar essa lista, é necessário informar o trimestre, a turma, a disciplina e a avaliação para a qual desejamos gerar a lista. Em seguida, clicamos em "Lançar Notas", resultando numa lista nominal de todos os discentes matriculados na disciplina.
-
-Caso não desejemos prosseguir, temos a opção de clicar em "Cancelar". Essa ferramenta simplifica o processo de publicação de notas.
+The Assessments menu is responsible for managing the assessments of students in a given class. Here, you can enter grades, create grade sheets, and generate students' academic transcripts.
 
 ---
 
-##### Avaliações
+##### Publishing Grades 
 
-A gestão de avaliações é conduzida por meio desta interface, permitindo a visualização de todas as avaliações e, para cada uma delas, a listagem dos discentes com as suas respetivas notas.
+The grade publishing assistant simplifies the process of assigning grades to students, making it easy to generate a list of students based on the grades entered.
 
-![Texto alternativo](../../imagens/avaliacoes.png)
+![Alternative text](../../imagens/gerar_notas.png)
 
-Para atribuir notas, basta selecionar uma avaliação específica, buscar pelo discente desejado e, em seguida, inserir ou alterar a nota correspondente. Após realizar as alterações, clicamos em "Salvar" para registar as mudanças.
-Essa abordagem oferece uma forma eficaz de gerir e atualizar as notas dos estudantes durante o processo de avaliação académica.
+To create this list, you need to specify the term, class, subject, and assessment for which you want to generate the list. Then, click on "Post Grades," resulting in a list of all students enrolled in the subject.
 
----
-
-##### Gerar Pautas
-
-O assistente de geração de pautas permite criar pautas de forma dinâmica, exigindo apenas a inserção dos dados necessários. A pauta é gerada automaticamente com todos os cálculos elaborados com base nas fórmulas definidas.
-
-![Texto alternativo](../../imagens/gerar_pauta.png)
-
-Para criar uma nova pauta, é necessário fornecer os dados obrigatórios. Na opção Tipo de Pauta, selecionamos o formato desejado. Em seguida, clicamos em "Gerar" para criar a pauta, ou em "Cancelar" caso desejemos anular o processo.
+If you do not wish to proceed, you have the option to click "Cancel." This tool simplifies the grade posting process.
 
 ---
 
-##### Pautas
+##### Avaliations
 
-A gestão de pautas é realizada através desta interface, na qual é possível visualizar todas as pautas já geradas.
-Para cada pauta, é disponibilizada uma listagem dos discentes com as suas respetivas notas, proporcionando uma visão abrangente do desempenho académico de cada aluno.
+Assessment management is conducted through this interface, allowing the viewing of all assessments and, for each one, a list of students with their respective grades.
 
-![Texto alternativo](../../imagens/pautas.png)
+![Alternative text](../../imagens/avaliacoes.png)
 
-Essa interface facilita a análise e o acompanhamento das avaliações ao longo do tempo, permitindo uma gestão eficaz das informações relacionadas às notas dos discentes.
-
----
-
-##### Gerar Percurso
-
-O assistente de geração de percurso académico possibilita registar as atividades académicas de uma turma específica, ou seja, o desempenho dos discentes nela matriculados.
-
-![Texto alternativo](../../imagens/gerar_percurso.png)
-
-Essa ferramenta oferece uma forma eficiente de documentar e analisar o progresso académico ao longo do tempo, proporcionando uma visão completa do percurso educacional dos alunos da turma.
+To assign grades, simply select a specific assessment, search for the desired student, and then enter or change the corresponding grade. After making the changes, click "Save" to record the changes.
+This approach offers an effective way to manage and update student grades during the academic assessment process.
 
 ---
 
-##### Percurso Académico
+##### Generate Schedule
 
-O percurso académico permite armazenar o desempenho obtido pelos discentes ao longo de um determinado ano letivo, oferecendo informações cruciais para a tomada de decisões quanto à progressão ou retenção dos alunos.
+The schedule generation wizard allows you to create schedules dynamically, requiring only the input of the necessary data. The schedule is automatically generated with all calculations performed based on the defined formulas.
 
-![Texto alternativo](../../imagens/percurso_academico.png)
+![Alternative text](../../imagens/gerar_pauta.png)
 
-Essa ferramenta fornece uma análise detalhada do rendimento académico, auxiliando na avaliação do progresso dos estudantes e na definição das suas trajetórias educacionais.
+To create a new agenda, you need to provide the required information. In the Agenda Type option, select the desired format. Then, click "Generate" to create the agenda, or "Cancel" if you wish to cancel the process.
+
+---
+
+##### Schedule
+
+Schedule management is done through this interface, where you can view all the grades that have already been generated.
+For each grade, a list of students with their respective grades is available, providing a comprehensive view of each student's academic performance.
+
+![Alternative text](../../imagens/pautas.png)
+
+This interface facilitates the analysis and monitoring of assessments over time, allowing for effective management of information related to student grades.
+
+---
+
+##### Generate Academic Path
+
+The academic path generation assistant makes it possible to record the academic activities of a specific class, that is, the performance of the students enrolled in it.
+
+![Alternative text](../../imagens/gerar_percurso.png)
+
+This tool offers an efficient way to document and analyze academic progress over time, providing a complete overview of the educational path of the students in the class.
+
+---
+
+##### Academic Path
+
+The academic record allows for the storage of students' performance throughout a given academic year, providing crucial information for making decisions regarding student progression or retention.
+
+![Alternative text](../../imagens/percurso_academico.png)
+
+This tool provides a detailed analysis of academic performance, assisting in the evaluation of student progress and the definition of their educational pathways.
