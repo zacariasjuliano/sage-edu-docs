@@ -1,50 +1,68 @@
-### 🏢 Sistema de Informação Educacional (SIE)
+### 🏢 Educational Information System (EIS)
 
 
-#### 📘 Definição
+#### 📘 Definition
 
-O SIE é um sistema de nível estratégico ou governamental, voltado à coleta, consolidação e análise de dados educacionais de várias instituições.
+An educational information system (EIS) is a strategic or governmental-level system focused on collecting, consolidating, and analyzing educational data from various institutions.
 
-Ele não administra a escola individualmente, mas serve para planejamento, monitoramento e formulação de políticas públicas no setor educacional.
-
-⚙️ **Funcionalidades principais**
-
-* Coleta de dados de escolas, alunos e professores (ex: número de matrículas, evasão, infraestrutura)
-
-* Indicadores estatísticos e relatórios para governos e gestores
-
-* Integração com SGEs e SGAs locais
-
-* Monitoramento de desempenho educacional a nível nacional ou regional
-
-* Planejamento de recursos (docentes, materiais, orçamentos)
-
-👥 **Público-alvo**
-
-Ministérios da Educação, secretarias provinciais ou municipais, organismos internacionais e redes de ensino.
-
-💡 **Exemplo**
-
-Um SIE nacional pode:
-
-* Coletar dados de todas as escolas públicas do país;
-
-* Produzir relatórios sobre taxa de conclusão escolar ou aproveitamento;
-
-* Apoiar a tomada de decisão sobre políticas educacionais.
+It does not manage individual schools, but serves for planning, monitoring, and formulating public policies in the education sector.
 
 ---
 
-#### 📦 Módulos
+⚙️ **Key Features**
+
+* Data collection from schools, students, and teachers (e.g., enrollment numbers, dropout rates, infrastructure)
+
+* Statistical indicators and reports for governments and administrators
+
+* Integration with SMS and local SMS systems
+
+* Monitoring of educational performance at the national or regional level
+
+* Resource planning (teachers, materials, budgets)
 
 ---
 
-#### Perfis de Utilizadores
+👥 **Target audience:** 
+
+Ministries of Education, provincial and municipal secretariats, international organizations, and education networks.
+
+💡 **Example**
+
+A national educational information system (EIS) can:
+
+* Collect data from all public schools in the country;
+
+* Produce reports on school completion rates or achievement;
+
+* Support decision-making on educational policies.
 
 ---
 
-#### Assistentes
+#### 📦 Modules
+
+This section presents the main processes and their respective administrative and technological actions that allow **SAGE Education** to meet the needs of institutions. This document describes only the component responsible for educational information (EIS) and is subject to constant modifications and updates, based on the continuous improvement of the platform.
+
+The Educational Information System is composed of the following sub-modules:
+
+* **AMS**
+
+All the modules in the AMS ...
+
+* **SMS**
+
+All the modules in the SMS ...
 
 ---
 
-#### 📝 Documentos Gerados
+#### 👤 User Profiles
+
+All the users available in the AMS and SMS is include in educational information system.
+
+---
+
+#### 🔧 Assistants
+
+---
+
+#### 📝 Generated Documents
