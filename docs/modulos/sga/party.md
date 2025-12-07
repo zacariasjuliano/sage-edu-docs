@@ -1,103 +1,101 @@
-#### Gestão de Entidades
+#### Entity Management
 
-O menu de Gestão de Entidades tem como função principal gerir as entidades no sistema. Cada entidade pode representar pessoas singulares ou jurídicas, organizações, associações, negócios e qualquer tipo de grupo que possa ser tratado como uma entidade no sistema.
+The main function of the Entity Management menu is to manage entities within the system. Each entity can represent individuals or legal entities, organizations, associations, businesses, and any type of group that can be treated as an entity in the system.
 
-Cada entidade pode ter associado:
+Each entity can have associated:
 
-* Contactos
-* Endereços
-* Categorias
-* Identificadores
-* Tipo (Singular ou Corporativa)
+* Contacts
+* Addresses
+* Categories
+* Identifiers
+* Type (Individual or Corporate)
 
 
+##### Entities
 
-##### Entidades
+To create a new entity:
 
-Para criar uma nova entidade:
+1. Click on “New”
 
-1. Clique em “Novo”
+2. Fill in the required fields
 
-2. Preencher os campos obrigatórios
+3. Click on “Save”, and the new entity is created.
 
-3. Clique em “Salvar”, e a nova entidade é criada.
+After creating the entity, you can add contacts, addresses, language, and other supplementary information.
 
-Após criar a entidade, pode adicionar contactos, endereços, idioma, entre outras informações complemetares.
-
-![Texto alternativo](../../imagens/party.png)
-
+![Alternative text](../../imagens/party.png)
 
 ---
 
-##### Instituição
+##### Institution
 
-Para criar uma nova instituição:
+To create a new institution:
 
-1. Certifique-se de que existe uma entidade previamente criada
+1. Ensure that an entity has already been created.
 
-2. Clique em “Novo”
+2. Click on “New”.
 
-3. Pesquise a entidade a associar
+3. Search for the entity to be associated.
 
-4. Preencha os restantes dados
+4. Fill in the remaining data.
 
-5. Clique em “Salvar”, e a nova instituição é criada.
-
-
-![Texto alternativo](../../imagens/company.png)
-
----
-
-##### Funcionários
-
-O sistema oferece duas formas de cadastrar funcionários:
-
-1. Pela Instituição
-    * Menu: Instituição → Empregados
-
-2. Pelo sub-menu Geral
-    *   Menu: Funcionários
+5. Click on “Save”, and the new institution is created.
 
 
-Para cadastrar:
-
-1. Clique em “Novo”
-
-2. Preencha os campos obrigatórios
-
-3. Se a instituição não estiver selecionada, pesquise pela desejada
-
-4. Clique em “Salvar”
-
-![Texto alternativo](../../imagens/employee.png)
+![Alternative text](../../imagens/company.png)
 
 ---
 
-##### Discentes
+##### Employees
 
-Para cadastrar um discnete:
+The system offers two ways to register employees:
 
-1. Certifique-se de que existe uma entidade criada
+1. By Institution
+    * Menu: Institution → Employees
 
-2. Clique em “Novo”
+2. By General sub-menu
+    * Menu: Employees
 
-3. Pesquise a entidade
 
-4. Preencha os campos adicionais
+To register:
 
-5. Clique em “Salvar”
+1. Click on “New”
 
-6. Confirme o registo
+2. Fill in the required fields
 
-![Texto alternativo](../../imagens/studentes.png)
+3. If the institution is not selected, search for the desired one
 
-É possível visualizar:
+4. Click on “Save”
 
-* Disciplinas
+![Alternative text](../../imagens/employee.png)
 
-* Avaliações
+---
 
-* Pautas
+##### Students
 
-* Percurso académico
+To register a student:
+
+1. Ensure an entity has already been created.
+
+2. Click "New".
+
+3. Search for the entity.
+
+4. Fill in the additional fields.
+
+5. Click "Save".
+
+6. Confirm the registration.
+
+![Alternative text](../../imagens/studentes.png)
+
+You can view:
+
+* Subjects
+
+* Assessments
+
+* Grades
+
+* Academic record
 

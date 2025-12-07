@@ -1,75 +1,83 @@
-### 🎓 Sistema de Gestão Académica (SGA)
+### 🎓 Academic Management System (AMS)
 
 
-#### 📘 Definição
+#### 📘 Definition
 
-O SGA é um sistema focado na gestão dos processos académicos de uma instituição de ensino. Trata de todos os processos que envolve estudantes, cursos, disciplinas e avaliações.
-
-⚙️ **Funcionalidades principais**
-
-* Gestão de matrículas e inscrições em disciplinas
-
-* Lançamento de notas e frequência
-
-* Controle de calendário académico
-
-* Gestão de turmas e horários
-
-* Emissão de boletins, certificados e históricos
-
-* Controle de situação académica do estudante (ativo, desistente, concluinte, etc.)
-
-👥 **Público-alvo**
-
-Universidades, institutos, escolas, centro de formações e explicações que precisam administrar a vida académica dos alunos de forma estruturada.
-
-💡 **Exemplo**
-
-Um SGA permite que:
-
-* O estudante se inscreva online nas disciplinas do semestre;
-
-* O docente lance notas e presenças;
-
-* A secretaria gere históricos e documentos oficiais.
+The AMS is a system focused on managing the academic processes of an educational institution. It handles all processes involving students, courses, subjects, and assessments.
 
 ---
 
-#### 📦 Módulos
+⚙️ **Main Features**
 
-Nesta secção, apresentam-se os principais processos e as respetivas ações administrativas e tecnológicas que permitem ao **SAGE Education** atender às necessidades das instituições. Este documento descreve apenas a componente responsável pela gestão académica (SGA) e está sujeito a constantes modificações e atualizações, baseadas na melhoria contínua da plataforma.
+* Management of enrollments and course registrations
 
-O Sistema de Gestão Académica é composta pelos seguintes sub-módulos:
+* Grade and attendance entry
 
-* **Módulo de Entidades** 
+* Academic calendar control
 
-Tem como função principal gerir as entidades individuais e corporativas da instituição de ensino, mantendo a informação organizada e disponível.
+* Class and schedule management
 
-* **Módulo de Matrículas** 
+* Issuance of report cards, certificates, and transcripts
 
-Tem como função principal gerir novos candidatos, discentes já matriculados e transferências entre instituições de ensino.
-Este módulo fornece toda a base necessária para que a gestão de matrículas seja automatizada.
-
-* **Módulo de Turmas**
-
-Tem como função principal gerir turmas, discentes e docentes.
-Este módulo fornece a estrutura necessária para que a gestão de matrículas, alunos e professores seja realizada com maior controlo.
-
-* **Módulo de Avaliações** 
-
-Tem como função principal gerir as avaliações, mantendo o controlo das avaliações publicadas, pautas e percurso académico.
-Este módulo oferece a base necessária para uma gestão mais eficiente das turmas, permitindo automatizar o lançamento de pautas e o histórico académico dos discentes.
-
-* **Módulo de Configurações** 
-
-Tem como função principal permitir a configuração dos módulos que compõem a gestão pedagógica académica.
-Aqui podem ser definidas as regras de operação e de negócio da instituição, garantindo que matrículas, turmas, avaliações, docentes e discentes funcionem de maneira automatizada e alinhada ao modelo institucional.
+* Control of student academic status (active, withdrawn, completed, etc.)
 
 ---
 
-#### 👤 Perfis de Utilizadores
+👥 **Target audience:** 
 
-Esta componente disponibiliza ***quatro perfis de utilizadores***, que podem ser atribuídos a qualquer conta dentro da plataforma, permitindo testar diferentes níveis de acesso e funcionalidades.
+Universities, institutes, schools, training centers, and private tutoring services that need to manage students' academic lives in a structured way.
+
+💡 **Example**
+
+A Student Management System (AMS) allows:
+
+* Students to enroll in semester courses online;
+
+* Professors to enter grades and attendance records;
+
+* The registrar's office to manage transcripts and official documents.
+
+---
+
+#### 📦 Modules
+
+This section presents the main processes and their respective administrative and technological actions that allow **SAGE Education** to meet the needs of institutions. This document describes only the component responsible for academic management (AMS) and is subject to constant modifications and updates, based on the continuous improvement of the platform.
+
+The Academic Management System is composed of the following sub-modules:
+
+* **Entities Module**
+
+Its main function is to manage the individual and corporate entities of the educational institution, keeping the information organized and available.
+
+* **Student Registration Module**
+
+Its main function is to manage new applicants, already enrolled students, and transfers between educational institutions.
+
+This module provides all the necessary foundation for automating enrollment management.
+
+* **Class Module**
+
+Its main function is to manage classes, students, and teachers.
+
+This module provides the necessary structure for managing enrollments, students, and teachers with greater control.
+
+* **Assessment Module**
+
+Its main function is to manage assessments, keeping track of published assessments, grades, and academic progress.
+
+This module provides the necessary foundation for more efficient class management, allowing you to automate the posting of grades and the academic history of students.
+
+* **Configuration Module**
+
+Its main function is to allow the configuration of the modules that make up the academic pedagogical management.
+
+Here, the institution's operating and business rules can be defined, ensuring that enrollments, classes, assessments, faculty, and students function in an automated manner and aligned with the institutional model.
+
+---
+
+#### 👤 User Profiles
+
+This component provides ***six user profiles***, which can be assigned to any account within the platform, allowing you to test different levels of access and functionalities.
 
 | **Perfil** | **Usuário** | **Senha**       |
 | ---------- | ----------- | --------------- |
@@ -77,97 +85,97 @@ Esta componente disponibiliza ***quatro perfis de utilizadores***, que podem ser
 | Docente    | docente     | sage_docente    |
 | Secretaria | secretaria  | sage_secretaria |
 | Direção    | direcao     | sage_direcao    |
-
-
----
-
-#### 🔧 Assistentes
-
-Os assistentes são rotinas guiadas que facilitam a execução de processos complexos. O Sistema de Gestão Académica inclui:
-
-* [Efetuar Matrícular](matriculation.md#efetuar-matricula)
-
-* [Associar Disciplinas](matriculation.md#associar-disciplina)
-
-* [Avaliar Candidaturas](matriculation.md#avaliar-candidatura)
-
-* [Mudar Matrícula](matriculation.md#mudanca-de-matricula)
-
-* [Avaliar Turma](classes.md#avaliar)
-
-* [Publicar Notas](avaliation.md#publicar-notas)
-
-* [Gerar Pauta](avaliation.md#gerar-pautas)
-
-* [Gerar Percurso Académico](avaliation.md#gerar-percurso)
-
-* [Duplicar Configurações](configuration.md#duplicar)
-
+| Admin      | admin       | sage_admin      |
+| Admin Eng  | admin_eng   | sage_admin      |
 
 ---
 
-#### 📝 Documentos Gerados
+#### 🔧 Assistants
 
-* Ficha Instituição
+Assistants are guided routines that facilitate the execution of complex processes. The Academic Management System includes:
 
-* Ficha Funcionários
+* [Enroll](matriculation.md#enrollment-process)
 
-* Ficha Discente
+* [Associate Subjects](matriculation.md#assigning-discipline)
 
-* Níveis Académico
+* [Evaluate Applications](matriculation.md#evaluate-applications)
 
-* Planos de Estudos
+* [Change Student Name](matriculation.md#student-registration-change)
 
-* Critério de Admissão
+* [Evaluate Class](classes.md#evaluate-class)
 
-* Pauta de Exame de Acesso
+* [Publish Grades](avaliation.md#publishing-grades)
 
-* Ficha Turma
+* [Generate Schedule](avaliation.md#generate-schedule)
 
-* Horário Turma
+* [Generate Academic Path](avaliation.md#generate-academic-path)
 
-* Lista de Discentes
+* [Duplicate Settings](configuration.md#duplicate)
 
-* Lista de Docentes
+---
 
-* Plano de Aula
+#### 📝 Generated Documents
 
-* Pauta Final
+* Institution Information Sheet
 
-* Mini Pauta
+* Employee Information Sheet
 
-* Pauta Trimestral
+* Student Information Sheet
 
-* Pauta de Exame Especial
+* Academic Levels
 
-* Pauta de Recurso
+* Study Plans
 
-* Ficha Acadêmica
+* Admission Criteria
 
-* Termo de Frequência
+* Entrance Exam Schedule
 
-* Ficha Candidato
+* Class Information Sheet
 
-* Gerar Equivalência
+* Class Timetable
 
-* Ficha Transferência Externa
+* Student List
 
-* Ficha Transferência Interna
+* Faculty List
 
-* Horário Discente
+* Lesson Plan
 
-* Situação da Matrícula
+* Final Grade Sheet
 
-* Boletim de Notas
+* Mini Grade Sheet
 
-* Boletim de Matrícula
+* Quarterly Grade Sheet
 
-* Declaração com Notas
+* Special Exam Schedule
 
-* Delcaração sem Notas
+* Appeal Schedule
 
-* Certificado
+* Academic Record
 
-* Horário Docente
+* Attendance Record
 
-* Recibo de Matrícula
+* Candidate Information Sheet
+
+* Generate Equivalence
+
+* External Transfer Form
+
+* Internal Transfer Form
+
+* Student Timetable
+
+* Enrollment Status
+
+* Grade Report
+
+* Enrollment Report
+
+* Statement with Grades
+
+* Statement without Grades
+
+* Certificate
+
+* Faculty Timetable
+
+* Receipt of Registration
