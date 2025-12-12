@@ -13,23 +13,23 @@ theme:
     - content.code.copy
 
 nav:
-  - Introdução: guia/intro.md
-  - Guia Rápido:
-    - Demonstração: guia/demo.md
-    - Instalação: guia/install.md
-    - Interface do Sistema: guia/interface.md
-  - Módulos: 
+  - Introduction: guia/intro.md
+  - Quick Guide:
+    - Demonstration: guia/demo.md
+    - Installation: guia/install.md
+    - System Interface: guia/interface.md
+  - Modules: 
     - SGA: 
-      - Descrição: modulos/sga/intro.md
-      - Entidades: modulos/sga/party.md
-      - Matrículas: modulos/sga/matriculation.md
-      - Turmas: modulos/sga/classes.md
-      - Avaliações: modulos/sga/avaliation.md
-      - Configurações: modulos/sga/configuration.md
+      - Description: modulos/sga/intro.md
+      - Entities: modulos/sga/party.md
+      - Matriculations: modulos/sga/matriculation.md
+      - Classes: modulos/sga/classes.md
+      - Avaliations: modulos/sga/avaliation.md
+      - Configurations: modulos/sga/configuration.md
     - SGE: 
-      - Descrição: modulos/sge/intro.md
+      - Description: modulos/sge/intro.md
     - SIE: 
-      - Descrição: modulos/sie/intro.md
+      - Description: modulos/sie/intro.md
   #- Manual do Utilizador: 
     #- Perfis de Acesso: guia/perfis.md
     #- Fluxo de Operações: guia/conceitos.md 
