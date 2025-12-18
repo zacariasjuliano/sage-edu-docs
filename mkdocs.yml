@@ -30,22 +30,8 @@ nav:
       - Description: modulos/sge/intro.md
     - SIE: 
       - Description: modulos/sie/intro.md
-  #- Manual do Utilizador: 
-    #- Perfis de Acesso: guia/perfis.md
-    #- Fluxo de Operações: guia/conceitos.md 
-  #- Administração do Sistema:
-  #  - Configurações Globais: admin/config.md
-  #  - Utilizadores e Permissões (ACL): admin/users.md
-  #  - Backup e Recuperação: admin/backup.md
-  #  - Auditoria e Logs: admin/audit.md
-  - Desenvolvedor:
-    - Processo de Desenvolvimento: guia/relaese_process.md
-    - Ambiente de Desenvolvimento: guia/dev.md
-    - Contrinuições: guia/contributing.md
-  #    - API: api/index.md
-  #    - Base de Dados: dev/db.md
-  #    - Integrações: dev/integrations.md
-
-  #- Suporte:
-  #    - Perguntas Frequentes: suporte/faq.md
-  #    - Problemas Comuns: suporte/troubleshooting.md
+  - Developer:
+    - Relaese Process: guia/relaese_process.md
+    - Development Environment: guia/dev.md
+    - Contributing: guia/contributing.md
+    
