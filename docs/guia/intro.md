@@ -21,8 +21,18 @@ The **Akademy Party (Entity Management)** is a complementary module responsible 
 
 The **Akademy Company (Institution Management)** module is a complementary module responsible for **expanding the functionalities** of the **Organization Management** module, offering advanced tools for managing organizations. 
 
-### ⚙️ Akademy Class Module
+### Akademy Class Module
 
 The **Akademy Class (Class Management)** module is a complementary module responsible for **academic management focused on classes**, keeping all information organized and accessible to the institution.
 
 It offers advanced tools for **controlling classes, teachers, and students**, allowing for centralized and efficient monitoring of each student's performance and progress.
+
+## Akademy Matriculation Module
+
+The **Akademy Matriculation (Enrollment Management)** module is a complementary module responsible for **managing school enrollments**, keeping all information organized and accessible to the institution.
+
+It offers advanced tools for **enrollments, applications, and transfers**, allowing for centralized and efficient monitoring of each student's performance and progress.
+
+## Akademy Matriculation Confirmation Module
+
+The **Akademy Matriculation Confirmation (Enrollment Confirmation Management)** is a complementary module responsible for **expanding the functionalities** of the **Enrollment Management** module, offering advanced tools for managing enrollment renewals.

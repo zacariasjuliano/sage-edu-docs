@@ -43,6 +43,8 @@ To obtain a copy of the project:
 git clone https://github.com/comunidadedosaber/akademy-party
 git clone https://github.com/comunidadedosaber/akademy-company
 git clone https://github.com/comunidadedosaber/akademy-classe
+git clone https://github.com/comunidadedosaber/akademy-matriculation
+git clone https://github.com/comunidadedosaber/akademy-matriculation_confirmation
 ```
 
 ### 🐞 Reporting Bugs

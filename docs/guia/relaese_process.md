@@ -26,7 +26,7 @@ After validation, final tests and necessary adjustments, the stable version is o
 
 ### 📦 Stable Version
 
-The current stable version of **SAGE Education** is 1.0.0, developed on the basis of Trytond 6.8.14.
+The current stable version of **SAGE Education** is 1.1.0, developed on the basis of Trytond 6.8.14.
 
 The expected dates for the next versions will be announced according to the community's progress and may change.
 
