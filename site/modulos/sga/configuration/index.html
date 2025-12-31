@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/modulos/sga/configuration/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Configurations - SAGE Edu – Documentação</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Configurations";
+        var mkdocs_page_input_path = "modulos/sga/configuration.md";
+        var mkdocs_page_url = "/sage-edu-docs/modulos/sga/configuration/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> SAGE Edu – Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../guia/intro/">Introduction</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Quick Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/demo/">Demonstration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/interface/">System Interface</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modules</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >SGA</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../intro/">Description</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../party/">Entities</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../matriculation/">Matriculations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../classes/">Classes</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../avaliation/">Avaliations</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Configurations</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#duplicate">Duplicate</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#academic-levels">Academic Levels</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#classroom">Classroom</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#metrics">Metrics</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#school-year">School Year</a>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SGE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../sge/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SIE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../sie/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Developer</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/relaese_process/">Relaese Process</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/dev/">Development Environment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/contributing/">Contributing</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">SAGE Edu – Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Modules</li>
+          <li class="breadcrumb-item">SGA</li>
+      <li class="breadcrumb-item active">Configurations</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h4 id="settings">Settings</h4>
+<p>The purpose of the settings menu is to support the enrollment, monitoring, and evaluation of students by the institution's pedagogical area.</p>
+<p>This menu is essential for configuring and customizing the system according to the needs, norms, and rules in which the institution is involved, thus ensuring efficiency and compliance with pedagogical policies and processes.</p>
+<h5 id="duplicate">Duplicate</h5>
+<p>The duplication wizard allows you to create copies of information from one study plan to another. This feature makes it possible to duplicate both subjects and assessments from one plan to another.</p>
+<p>To duplicate subjects, you only need to specify the desired study plans.</p>
+<p>If you want to duplicate assessments, you will also need to specify the subjects for which you want to make the copy.</p>
+<p><img alt="Alternative text" src="../../../imagens/conf_duplicar.png" /></p>
+<p>After providing this information, simply click "Copy" to duplicate it or "Cancel" to undo the process.
+This tool simplifies the process of replicating information between different academic years for specific study plans, providing greater speed and efficiency in academic management.</p>
+<hr />
+<h5 id="academic-levels">Academic Levels</h5>
+<p>The academic levels interface allows you to manage the levels offered by the institution.</p>
+<p>In it, you can view all existing levels, add new levels, and define their specific characteristics.</p>
+<p><img alt="Alternative text" src="../../../imagens/niveis_academicos.png" /></p>
+<hr />
+<h5 id="classroom">Classroom</h5>
+<p>Classroom management is performed in this interface, allowing the registration of new classrooms.
+To create a classroom, simply click "New," enter the necessary data, and then click "Save" to complete the process.</p>
+<p><img alt="Alternative text" src="../../../imagens/salas_aulas.png" /></p>
+<hr />
+<h5 id="metrics">Metrics</h5>
+<p>Metrics (or ratings) management is done in this interface, where you can view all existing metrics.
+To create a new metric, simply click "New," enter the necessary data, and then click "Save."</p>
+<p>Each metric contains information such as rating, rating type, and metric name.</p>
+<p><img alt="Alternative text" src="../../../imagens/metricas.png" /></p>
+<hr />
+<h5 id="school-year">School Year</h5>
+<p>The academic year interface allows for complete management of academic periods.</p>
+<p>In it, you can define trimesters, phases and admission criteria, study plans, and create new classes.</p>
+<p>By clicking "New," you can create a new academic year, specifying the desired start and end dates.</p>
+<p><img alt="Alternative text" src="../../../imagens/ano_lectivo.png" /></p>
+<ul>
+<li>
+<p>To define the quarterly periods, click on the "Quarters" tab. By clicking "New", add the desired academic periods.</p>
+</li>
+<li>
+<p>To define the admission phases, click on the "Phases" tab. In "New", add the phases and their respective admission criteria.</p>
+</li>
+<li>
+<p>To define the study plans for the academic year, click on the "Study Plans" tab. In "New", include new plans, as well as the subjects and assessments that will be part of each one.</p>
+</li>
+</ul>
+<p>In addition, it is possible to create new classes directly through this interface, if you do not wish to perform this action through the Classes menu.</p>
+<p>These resources provide comprehensive and integrated management of the key elements associated with the academic year.</p>
+<p><strong>Observation</strong></p>
+<p>In the settings menu, there is a sub-menu called Pre-Configured, where some ready-to-use settings are available.</p>
+<p>Other settings can be added as needed by the institution.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../avaliation/" class="btn btn-neutral float-left" title="Avaliations"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../sge/intro/" class="btn btn-neutral float-right" title="Description">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../avaliation/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../sge/intro/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

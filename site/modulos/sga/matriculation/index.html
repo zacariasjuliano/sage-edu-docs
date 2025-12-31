@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/modulos/sga/matriculation/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Matriculations - SAGE Edu – Documentação</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Matriculations";
+        var mkdocs_page_input_path = "modulos/sga/matriculation.md";
+        var mkdocs_page_url = "/sage-edu-docs/modulos/sga/matriculation/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> SAGE Edu – Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../guia/intro/">Introduction</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Quick Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/demo/">Demonstration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/interface/">System Interface</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modules</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >SGA</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../intro/">Description</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../party/">Entities</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Matriculations</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#candidates">Candidates</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#transfers">Transfers</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#enrollment-process">Enrollment Process</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#assigning-discipline">Assigning Discipline</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#evaluate-applications">Evaluate Applications</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#student-registration-change">Student Registration Change</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../classes/">Classes</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../avaliation/">Avaliations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../configuration/">Configurations</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SGE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../sge/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SIE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../sie/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Developer</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/relaese_process/">Relaese Process</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/dev/">Development Environment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/contributing/">Contributing</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">SAGE Edu – Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Modules</li>
+          <li class="breadcrumb-item">SGA</li>
+      <li class="breadcrumb-item active">Matriculations</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h4 id="enrollment-management">Enrollment Management</h4>
+<p>The registrar's office is responsible for managing enrollments, classes, and assessments. It allows for the control of all academic activities of students and faculty, facilitating the issuance of documents, the publication of agendas, and addressing the needs of users of the registrar's office and the institution's administration.</p>
+<h5 id="candidates">Candidates</h5>
+<p>In the image above, we can see the information of an application linked to the candidate. It is possible to view data related to the academic level, phase, modality, and the final result of the application.</p>
+<p><img alt="Alternative text" src="../../../imagens/candidatura.png" /></p>
+<hr />
+<h5 id="transfers">Transfers</h5>
+<p>This section allows the management of two types of transfers: internal and external.</p>
+<ul>
+<li>
+<p>Internal transfer refers to students leaving the institution to join another.</p>
+</li>
+<li>
+<p>External transfer refers to students entering the institution from another institution.</p>
+</li>
+</ul>
+<p><strong>Internal Transfers</strong></p>
+<p>To register a new internal transfer, a student must be previously enrolled in the system. Then:</p>
+<ol>
+<li>
+<p>Click on “New”</p>
+</li>
+<li>
+<p>Search for the student you wish to identify as transferred</p>
+</li>
+<li>
+<p>You can add a description and associate existing subjects in their academic record</p>
+</li>
+<li>
+<p>Click on “Save” and confirm the operation.</p>
+</li>
+</ol>
+<p><img alt="Alternative text" src="../../../imagens/transferencia_interna.png" /></p>
+<p><strong>External Transfers</strong></p>
+<p>To register an external transfer:</p>
+<ol>
+<li>
+<p>Click on “New”</p>
+</li>
+<li>
+<p>Search for the institution you wish to identify as the transferred student</p>
+</li>
+<li>
+<p>Fill in the remaining data</p>
+</li>
+<li>
+<p>Click on “Save” and confirm</p>
+</li>
+</ol>
+<p>If you wish to inform the subjects the student took at another institution, simply enter the subject name, class, and grade. This way, at the time of enrollment, the system can correctly identify the class where the student should be placed.</p>
+<p><img alt="Alternative text" src="../../../imagens/transferencia_externa.png" /></p>
+<hr />
+<h5 id="enrollment-process">Enrollment Process</h5>
+<p>The enrollment assistant allows you to enroll students dynamically. You need to specify the type of enrollment — candidate, transfer student, or previously enrolled student.</p>
+<p>To enroll:</p>
+<ol>
+<li>
+<p>Select the desired enrollment type.</p>
+</li>
+<li>
+<p>Fill in the required fields.</p>
+</li>
+<li>
+<p>Click "Enroll" to continue.</p>
+</li>
+<li>
+<p>If you wish to cancel, click "Cancel".</p>
+</li>
+<li>
+<p>This approach ensures flexibility and control in the enrollment process.</p>
+</li>
+</ol>
+<p><img alt="Alternative text" src="../../../imagens/matriculas.png" /></p>
+<hr />
+<h5 id="assigning-discipline">Assigning Discipline</h5>
+<p>The course assignment wizard allows you to associate courses from a specific class to certain students. It is used when a student is enrolled in a class but does not yet have any courses linked to them.</p>
+<p>To perform the association:</p>
+<ol>
+<li>
+<p>Enter the desired class</p>
+</li>
+<li>
+<p>Click on “Associate”</p>
+</li>
+<li>
+<p>If you wish to cancel, click on “Cancel”</p>
+</li>
+</ol>
+<p>This wizard facilitates the organization of courses assigned to students, ensuring efficient management of the academic curriculum.</p>
+<p><img alt="Alternative text" src="../../../imagens/asociar_disciplina.png" /></p>
+<hr />
+<h5 id="evaluate-applications">Evaluate Applications</h5>
+<p>The application evaluation assistant allows you to analyze registered candidates and determine whether they will be approved or rejected.</p>
+<p>To perform the evaluation:</p>
+<ol>
+<li>
+<p>Specify the desired admission criteria.</p>
+</li>
+<li>
+<p>All applications that meet these criteria will be included.</p>
+</li>
+<li>
+<p>Click "Evaluate" to start the process.</p>
+</li>
+<li>
+<p>If necessary, click "Cancel" to undo the operation.</p>
+</li>
+</ol>
+<p>This tool ensures a thorough, efficient, and transparent selection process.</p>
+<p><img alt="Alternative text" src="../../../imagens/avaliar_candidatura.png" /></p>
+<hr />
+<h5 id="student-registration-change">Student Registration Change</h5>
+<p>The registration change tool allows you to transfer a student to another area, course, class, or semester.</p>
+<p>To make the change:</p>
+<ol>
+<li>
+<p>Select the desired student</p>
+</li>
+<li>
+<p>Indicate the new class or destination</p>
+</li>
+<li>
+<p>Click "Change" to confirm</p>
+</li>
+</ol>
+<p>This tool offers flexibility in academic management, allowing adjustments according to the needs of students and the institution.</p>
+<p><img alt="Alternative text" src="../../../imagens/mudanca_matricula.png" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../party/" class="btn btn-neutral float-left" title="Entities"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../classes/" class="btn btn-neutral float-right" title="Classes">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../party/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../classes/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

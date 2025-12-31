@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/modulos/sga/avaliation/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Avaliations - SAGE Edu – Documentação</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Avaliations";
+        var mkdocs_page_input_path = "modulos/sga/avaliation.md";
+        var mkdocs_page_url = "/sage-edu-docs/modulos/sga/avaliation/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> SAGE Edu – Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../guia/intro/">Introduction</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Quick Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/demo/">Demonstration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/interface/">System Interface</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modules</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >SGA</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../intro/">Description</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../party/">Entities</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../matriculation/">Matriculations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../classes/">Classes</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Avaliations</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#publishing-grades">Publishing Grades</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#avaliations">Avaliations</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#generate-schedule">Generate Schedule</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#schedule">Schedule</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#generate-academic-path">Generate Academic Path</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#academic-path">Academic Path</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../configuration/">Configurations</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SGE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../sge/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SIE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../sie/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Developer</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/relaese_process/">Relaese Process</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/dev/">Development Environment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/contributing/">Contributing</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">SAGE Edu – Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Modules</li>
+          <li class="breadcrumb-item">SGA</li>
+      <li class="breadcrumb-item active">Avaliations</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h4 id="assessment-management">Assessment Management</h4>
+<p>Assessment Management</p>
+<p>The Assessments menu is responsible for managing the assessments of students in a given class. Here, you can enter grades, create grade sheets, and generate students' academic transcripts.</p>
+<hr />
+<h5 id="publishing-grades">Publishing Grades</h5>
+<p>The grade publishing assistant simplifies the process of assigning grades to students, making it easy to generate a list of students based on the grades entered.</p>
+<p><img alt="Alternative text" src="../../../imagens/gerar_notas.png" /></p>
+<p>To create this list, you need to specify the term, class, subject, and assessment for which you want to generate the list. Then, click on "Post Grades," resulting in a list of all students enrolled in the subject.</p>
+<p>If you do not wish to proceed, you have the option to click "Cancel." This tool simplifies the grade posting process.</p>
+<hr />
+<h5 id="avaliations">Avaliations</h5>
+<p>Assessment management is conducted through this interface, allowing the viewing of all assessments and, for each one, a list of students with their respective grades.</p>
+<p><img alt="Alternative text" src="../../../imagens/avaliacoes.png" /></p>
+<p>To assign grades, simply select a specific assessment, search for the desired student, and then enter or change the corresponding grade. After making the changes, click "Save" to record the changes.
+This approach offers an effective way to manage and update student grades during the academic assessment process.</p>
+<hr />
+<h5 id="generate-schedule">Generate Schedule</h5>
+<p>The schedule generation wizard allows you to create schedules dynamically, requiring only the input of the necessary data. The schedule is automatically generated with all calculations performed based on the defined formulas.</p>
+<p><img alt="Alternative text" src="../../../imagens/gerar_pauta.png" /></p>
+<p>To create a new agenda, you need to provide the required information. In the Agenda Type option, select the desired format. Then, click "Generate" to create the agenda, or "Cancel" if you wish to cancel the process.</p>
+<hr />
+<h5 id="schedule">Schedule</h5>
+<p>Schedule management is done through this interface, where you can view all the grades that have already been generated.
+For each grade, a list of students with their respective grades is available, providing a comprehensive view of each student's academic performance.</p>
+<p><img alt="Alternative text" src="../../../imagens/pautas.png" /></p>
+<p>This interface facilitates the analysis and monitoring of assessments over time, allowing for effective management of information related to student grades.</p>
+<hr />
+<h5 id="generate-academic-path">Generate Academic Path</h5>
+<p>The academic path generation assistant makes it possible to record the academic activities of a specific class, that is, the performance of the students enrolled in it.</p>
+<p><img alt="Alternative text" src="../../../imagens/gerar_percurso.png" /></p>
+<p>This tool offers an efficient way to document and analyze academic progress over time, providing a complete overview of the educational path of the students in the class.</p>
+<hr />
+<h5 id="academic-path">Academic Path</h5>
+<p>The academic record allows for the storage of students' performance throughout a given academic year, providing crucial information for making decisions regarding student progression or retention.</p>
+<p><img alt="Alternative text" src="../../../imagens/percurso_academico.png" /></p>
+<p>This tool provides a detailed analysis of academic performance, assisting in the evaluation of student progress and the definition of their educational pathways.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../classes/" class="btn btn-neutral float-left" title="Classes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../configuration/" class="btn btn-neutral float-right" title="Configurations">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../classes/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../configuration/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

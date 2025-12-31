@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/guia/relaese_process/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Relaese Process - SAGE Edu – Documentação</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Relaese Process";
+        var mkdocs_page_input_path = "guia/relaese_process.md";
+        var mkdocs_page_url = "/sage-edu-docs/guia/relaese_process/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> SAGE Edu – Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../intro/">Introduction</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Quick Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../demo/">Demonstration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../interface/">System Interface</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modules</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >SGA</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/intro/">Description</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/party/">Entities</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/matriculation/">Matriculations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/classes/">Classes</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/avaliation/">Avaliations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/configuration/">Configurations</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SGE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sge/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SIE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sie/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Developer</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Relaese Process</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#launch-process-steps">🔄 Launch Process Steps</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stable-version">📦 Stable Version</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../dev/">Development Environment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">SAGE Edu – Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Developer</li>
+      <li class="breadcrumb-item active">Relaese Process</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="development-process">📘 Development Process</h2>
+<p><strong>SAGE Education</strong> follows a structured development cycle, ensuring quality, security and stability with each new version. Stable releases are made available annually (every 12 months). Among these releases, the following are distributed:</p>
+<ul>
+<li>
+<p>Quarterly updates (every 3 months), bringing improvements, optimizations and small features.</p>
+</li>
+<li>
+<p>Monthly security updates, ensuring system integrity and protection.</p>
+</li>
+</ul>
+<h3 id="launch-process-steps">🔄 Launch Process Steps</h3>
+<p>The process of releasing a new stable version is carefully coordinated:</p>
+<ul>
+<li>
+<ol>
+<li>Feature Freeze
+Approximately two months before the release of the stable version, new features are no longer added. The focus becomes stabilization, testing and bug fixes.</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Code Freeze
+About a month before release, the code freeze period enters, in which only critical fixes are allowed. At this stage, the release candidate (RC) is generated.</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Update of Environments and Communication to Teams
+With the RC available, the <a href="https://sage.comunidadedosaber.ao">demo community server</a> is updated, allowing users and partners to validate the new version. Documentation, support and integration teams are also notified to begin their adaptation processes.</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Stable Version Release
+After validation, final tests and necessary adjustments, the stable version is officially available.</li>
+</ol>
+</li>
+</ul>
+<h3 id="stable-version">📦 Stable Version</h3>
+<p>The current stable version of <strong>SAGE Education</strong> is 1.1.0, developed on the basis of Trytond 6.8.14.</p>
+<p>The expected dates for the next versions will be announced according to the community's progress and may change.</p>
+<hr />
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../modulos/sie/intro/" class="btn btn-neutral float-left" title="Description"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../dev/" class="btn btn-neutral float-right" title="Development Environment">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../modulos/sie/intro/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../dev/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

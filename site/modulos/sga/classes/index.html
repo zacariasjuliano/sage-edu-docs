@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/modulos/sga/classes/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Classes - SAGE Edu – Documentação</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Classes";
+        var mkdocs_page_input_path = "modulos/sga/classes.md";
+        var mkdocs_page_url = "/sage-edu-docs/modulos/sga/classes/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> SAGE Edu – Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../guia/intro/">Introduction</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Quick Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/demo/">Demonstration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/interface/">System Interface</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modules</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >SGA</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../intro/">Description</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../party/">Entities</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../matriculation/">Matriculations</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Classes</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#students">Students</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#teacher">Teacher</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#discipline">Discipline</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lesson-plan">Lesson Plan</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#evaluate-class">Evaluate Class</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../avaliation/">Avaliations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../configuration/">Configurations</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SGE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../sge/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SIE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../sie/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Developer</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/relaese_process/">Relaese Process</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/dev/">Development Environment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../guia/contributing/">Contributing</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">SAGE Edu – Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Modules</li>
+          <li class="breadcrumb-item">SGA</li>
+      <li class="breadcrumb-item active">Classes</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h4 id="class-management">Class Management</h4>
+<p>The Classes menu is responsible for managing classes, allowing the creation of new classes, the association of students and teachers along with their respective subjects, as well as the creation of schedules and lesson plans. To register new classes, it is necessary to have previously defined an academic year, study plans, and the respective assessments.</p>
+<p><img alt="Alternative text" src="../../../imagens/turmas.png" /></p>
+<p>By clicking the “New” button, you can enter the class data, including the student and teacher limits. In the student tab, you can associate new students with their corresponding subjects; and in the teacher tab, you can specify the subjects that will be taught in the class. In the timetable section, you can define the class time for each lesson, while in the Lesson Plan area we keep a record of the lessons taught by the teachers. When finished, we click Save to confirm the changes. This approach provides efficient and organized management of activities related to classes.</p>
+<hr />
+<h5 id="students">Students</h5>
+<p>The student interface enables effective student management, containing the information available in the student section within classes. Management can be done in this specific section as well as in the class section. Both options offer resources to manage and control student-related information, providing flexibility in academic administration.</p>
+<p><img alt="Alternative text" src="../../../imagens/lista_alunos.png" /></p>
+<hr />
+<h5 id="teacher">Teacher</h5>
+<p>The faculty interface offers the ability to manage information related to professors. Management can be performed both in this specific section and in the class section. Both options provide resources to administer and control professor data, offering flexibility in academic management.</p>
+<p><img alt="Alternative text" src="../../../imagens/lista_docentes.png" /></p>
+<hr />
+<h5 id="discipline">Discipline</h5>
+<p>The subject interface offers the ability to generate and print special exam answer sheets, appeals, and mini-schedules, according to the selected subject.</p>
+<p><img alt="Alternative text" src="../../../imagens/pauta_disciplina.png" /></p>
+<hr />
+<h5 id="lesson-plan">Lesson Plan</h5>
+<p>The lesson plan interface allows teachers to enter their lesson plans, thus maintaining a record of the lessons taught throughout the school year.</p>
+<p><img alt="Alternative text" src="../../../imagens/plano_aula.png" /></p>
+<hr />
+<h5 id="evaluate-class">Evaluate Class</h5>
+<p>The class evaluate performance in a specific lective year at the end of each school year. This makes it possible to determine which students will progress to the next grade and which will need to repeat the year.</p>
+<p><img alt="Alternative text" src="../../../imagens/avaliar_turma.png" /></p>
+<p>When using the assistant, it is possible to evaluating the class in the selected year. After making the desired choice,  click Proceed to continue the evaluation, or Cancel to undo the process. This tool provides a comprehensive assessment of academic performance, assisting in decision-making related to student progression.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../matriculation/" class="btn btn-neutral float-left" title="Matriculations"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../avaliation/" class="btn btn-neutral float-right" title="Avaliations">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../matriculation/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../avaliation/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
