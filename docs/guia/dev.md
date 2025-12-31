@@ -128,6 +128,8 @@ After the Tryton environment is configured, install the official SAGE Edu module
 git clone https://github.com/comunidadedosaber/akademy-party
 git clone https://github.com/comunidadedosaber/akademy-company
 git clone https://github.com/comunidadedosaber/akademy-classe
+git clone https://github.com/comunidadedosaber/akademy-matriculation
+git clone https://github.com/comunidadedosaber/akademy-matriculation_confirmation
 ```
 
 💡 Note: After installing new modules, it is recommended to restart the Tryton server and run trytond-admin again to synchronize the tables.
