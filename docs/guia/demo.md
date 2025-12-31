@@ -24,7 +24,7 @@ If you encounter any errors or require technical support, please contact us thro
 - 📧 **E-mail:** 
     -   [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
     -   [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)
-- 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244926585345)
+- 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
 
 ---
 

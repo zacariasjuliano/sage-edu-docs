@@ -6,7 +6,10 @@ The format as follows the recomendations of [Keep a Changelog](https://keepachan
 
 ## [1.1.0] - 2025-12-18
 ### Changed
-- Added support for SAGE Edu 1.1
-- Added matriculation and confirmation
+- Update README
+
+### Added
+- Add support for SAGE Edu 1.1
+- Add matriculation and confirmation
 
 
