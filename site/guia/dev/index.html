@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/guia/dev/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Development Environment - SAGE Edu – Documentação</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Development Environment";
+        var mkdocs_page_input_path = "guia/dev.md";
+        var mkdocs_page_url = "/sage-edu-docs/guia/dev/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> SAGE Edu – Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../intro/">Introduction</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Quick Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../demo/">Demonstration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../interface/">System Interface</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modules</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >SGA</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/intro/">Description</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/party/">Entities</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/matriculation/">Matriculations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/classes/">Classes</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/avaliation/">Avaliations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sga/configuration/">Configurations</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SGE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sge/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SIE</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../modulos/sie/intro/">Description</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Developer</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../relaese_process/">Relaese Process</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Development Environment</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-environment-preparation">🖥️ 1. Environment Preparation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-installation-and-configuration">🏗️ 2. Installation and Configuration</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#postgresql-installation">📦 PostgreSQL Installation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#trytond-installation">📦 Trytond Installation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#sage-edu-modules-installation">📦 SAGE Edu Modules Installation</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">SAGE Edu – Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Developer</li>
+      <li class="breadcrumb-item active">Development Environment</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="development-environment">📘 Development Environment</h2>
+<p>In this section we present all the steps necessary to configure the <strong>SAGE Edu</strong> development environment, including system preparation, configuration of dependencies and installation of the Tryton modules used by the project.</p>
+<h3 id="1-environment-preparation">🖥️ 1. Environment Preparation</h3>
+<p>Before getting started, we recommend creating an isolated development environment, especially if you need to work with multiple versions of Python.
+For this we will use <a href="https://virtualenv.pypa.io/en/latest/">virtualenv</a>.</p>
+<ul>
+<li>🔧 Virtualenv Installation</li>
+</ul>
+<p>On Debian-based Linux distributions, install Python 3 and virtualenv with:</p>
+<pre><code class="language-bash">sudo apt install python3 virtualenv
+</code></pre>
+<ul>
+<li>🧪 Creation of the Virtual Environment</li>
+</ul>
+<p>Create and activate a unique virtual environment for SAGE Edu:</p>
+<pre><code class="language-bash">virtualenv sage_edu_env
+
+source sage_edu_env/bin/activate
+</code></pre>
+<h3 id="2-installation-and-configuration">🏗️ 2. Installation and Configuration</h3>
+<p>SAGE Edu uses Tryton as its base framework and PostgreSQl as its database manager.
+Install the necessary packages within the virtual environment:</p>
+<h4 id="postgresql-installation">📦 PostgreSQL Installation</h4>
+<pre><code class="language-bash">sudo apt install postgresql postgresql-contrib
+</code></pre>
+<p>👤 <strong>Create User</strong></p>
+<pre><code class="language-bash">sudo su postgres -c &quot;createuser -s sage_edu&quot;
+
+sudo su postgres -c &quot;psql -c \&quot;ALTER ROLE sage_edu WITH PASSWORD 'sage_edu'\&quot;&quot;
+</code></pre>
+<p>⚙️ <strong>PostgreSQL Configuration</strong></p>
+<p>Some files need to be adjusted to allow proper access.</p>
+<ul>
+<li>Edit pg_hba.conf</li>
+</ul>
+<p>Find and change the line below:</p>
+<pre><code class="language-bash">DE: 
+    local         all            all                        peer
+
+PARA:
+    local         all            all                        md5
+</code></pre>
+<ul>
+<li>Edit postgresql.conf</li>
+</ul>
+<p>Enable the network listening parameter:</p>
+<pre><code class="language-bash">listen_addresses = '*'
+</code></pre>
+<p>Remove the ; at the beginning if it exists.</p>
+<ul>
+<li>Restart the servic</li>
+</ul>
+<pre><code class="language-bash">sudo systemctl restart postgresql
+</code></pre>
+<p>🗄️ <strong>Create the Data Base</strong></p>
+<pre><code class="language-bash">createdb -U sage_edu sage_edu_db
+</code></pre>
+<h4 id="trytond-installation">📦 Trytond Installation</h4>
+<pre><code class="language-bash">pip install psycopg2-binary
+
+pip install pycountry
+
+pip install trytond~=6.8.0
+</code></pre>
+<p>📝 <strong>Create the file trytond.conf</strong></p>
+<p>Create the Tryton server configuration file:</p>
+<pre><code class="language-bash">touch trytond.conf
+</code></pre>
+<p>Add content:</p>
+<pre><code class="language-bash">[database]
+uri = postgresql://sage_edu:sage_edu@localhost:5432/sage_edu_db
+</code></pre>
+<ul>
+<li>🔧 Initialize the Database</li>
+</ul>
+<pre><code class="language-bash">trytond-admin -c trytond.conf -d sage_edu_db --all
+</code></pre>
+<p>🚀 <strong>Start Tryton Server</strong></p>
+<pre><code class="language-bash">trytond -c trytond.conf
+</code></pre>
+<h4 id="sage-edu-modules-installation">📦 SAGE Edu Modules Installation</h4>
+<p>After the Tryton environment is configured, install the official SAGE Edu modules directly from GitHub:</p>
+<pre><code class="language-bash">git clone https://github.com/comunidadedosaber/akademy-party
+git clone https://github.com/comunidadedosaber/akademy-company
+git clone https://github.com/comunidadedosaber/akademy-classe
+git clone https://github.com/comunidadedosaber/akademy-matriculation
+git clone https://github.com/comunidadedosaber/akademy-matriculation_confirmation
+</code></pre>
+<p>💡 Note: After installing new modules, it is recommended to restart the Tryton server and run trytond-admin again to synchronize the tables.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../relaese_process/" class="btn btn-neutral float-left" title="Relaese Process"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../contributing/" class="btn btn-neutral float-right" title="Contributing">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../relaese_process/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../contributing/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

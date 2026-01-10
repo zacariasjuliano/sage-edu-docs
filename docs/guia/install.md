@@ -11,7 +11,7 @@ Before starting, make sure you have one of the following components installed in
 
 To install SAGE Edu, simply download the installation script and run it on your server:
 
-👉 [Download Installation Script](https://raw.githubusercontent.com/comunidadedosaber/sage-edu/refs/heads/main/scripts/sage_edu-v1.1-install.sh)
+👉 [Download Installation Script](https://raw.githubusercontent.com/zacariasjuliano/sage-edu/refs/heads/main/scripts/sage_edu-v1.1-install.sh)
 
 Then, make the script executable and run:
 
@@ -39,6 +39,7 @@ pip install akademy-company
 pip install akademy-classe
 pip install akademy-matriculation
 pip install akademy-matriculation-confirmation
+pip install akademy-dashboard
 ```
 
 * Create Tryton configuration file (trytond.conf)

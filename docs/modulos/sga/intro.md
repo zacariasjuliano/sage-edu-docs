@@ -115,66 +115,67 @@ Assistants are guided routines that facilitate the execution of complex processe
 
 #### 📝 Generated Documents
 
-* Institution Information Sheet
 
-* Employee Information Sheet
+* Ficha Instituição
 
-* Student Information Sheet
+* Ficha Funcionários
 
-* Academic Levels
+* Ficha Discente
 
-* Study Plans
+* Níveis Académico
 
-* Admission Criteria
+* Planos de Estudos
 
-* Entrance Exam Schedule
+* Critério de Admissão
 
-* Class Information Sheet
+* Pauta de Exame de Acesso
 
-* Class Timetable
+* Ficha Turma
 
-* Student List
+* Horário Turma
 
-* Faculty List
+* Lista de Discentes
 
-* Lesson Plan
+* Lista de Docentes
 
-* Final Grade Sheet
+* Plano de Aula
 
-* Mini Grade Sheet
+* Pauta Final
 
-* Quarterly Grade Sheet
+* Mini Pauta
 
-* Special Exam Schedule
+* Pauta Trimestral
 
-* Appeal Schedule
+* Pauta de Exame Especial
 
-* Academic Record
+* Pauta de Recurso
 
-* Attendance Record
+* Ficha Acadêmica
 
-* Candidate Information Sheet
+* Termo de Frequência
 
-* Generate Equivalence
+* Ficha Candidato
 
-* External Transfer Form
+* Gerar Equivalência
 
-* Internal Transfer Form
+* Ficha Transferência Externa
 
-* Student Timetable
+* Ficha Transferência Interna
 
-* Enrollment Status
+* Horário Discente
 
-* Grade Report
+* Situação da Matrícula
 
-* Enrollment Report
+* Boletim de Notas
 
-* Statement with Grades
+* Boletim de Matrícula
 
-* Statement without Grades
+* Declaração com Notas
 
-* Certificate
+* Delcaração sem Notas
 
-* Faculty Timetable
+* Certificado
 
-* Receipt of Registration
+* Horário Docente
+
+* Recibo de Matrícula
