@@ -5,11 +5,11 @@
 
 ### 🌍 Software Translation
 
-Currently, **SAGE Education** is only available in **Portuguese** and **English**.
+Currently, **SAGE Education** is only available in **Portuguese**, **English** and **French**.
 
 Expanding to new languages ​​is essential to broaden the project's impact and ensure it can be used in each user's native language.
 
-You can contribute in two ways:
+You can contribute with translations in two ways:
 
 * **Improving existing translations**
 * **Creating a new translation** for your language
@@ -40,11 +40,12 @@ SAGE Edu follows:
 To obtain a copy of the project:
 
 ```bash
-git clone https://github.com/comunidadedosaber/akademy-party
-git clone https://github.com/comunidadedosaber/akademy-company
-git clone https://github.com/comunidadedosaber/akademy-classe
-git clone https://github.com/comunidadedosaber/akademy-matriculation
-git clone https://github.com/comunidadedosaber/akademy-matriculation_confirmation
+git clone https://github.com/zacariasjuliano/akademy-party
+git clone https://github.com/zacariasjuliano/akademy-company
+git clone https://github.com/zacariasjuliano/akademy-classe
+git clone https://github.com/zacariasjuliano/akademy-matriculation
+git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
+git clone https://github.com/zacariasjuliano/akademy-dashboard
 ```
 
 ### 🐞 Reporting Bugs
