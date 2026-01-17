@@ -26,10 +26,10 @@ nav:
       - Classes: modulos/sga/classes.md
       - Avaliations: modulos/sga/avaliation.md
       - Configurations: modulos/sga/configuration.md
-    - SGE: 
-      - Description: modulos/sge/intro.md
-    - SIE: 
-      - Description: modulos/sie/intro.md
+    #- SGE: 
+    #  - Description: modulos/sge/intro.md
+    #- SIE: 
+    #  - Description: modulos/sie/intro.md
   - Developer:
     - Release Process: guia/released_process.md
     - Development Environment: guia/dev.md
