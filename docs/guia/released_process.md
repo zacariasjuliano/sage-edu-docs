@@ -4,7 +4,7 @@
 
 * Quarterly updates (every 3 months), bringing improvements, optimizations and small features.
 
-* Monthly security updates, ensuring system integrity and protection.
+* Monthly security updates, which ensure the integrity, protection, and usability of the system, are released on the 12th day.
 
 
 ### 🔄 Launch Process Steps

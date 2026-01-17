@@ -31,7 +31,7 @@ nav:
     - SIE: 
       - Description: modulos/sie/intro.md
   - Developer:
-    - Relaese Process: guia/relaese_process.md
+    - Release Process: guia/released_process.md
     - Development Environment: guia/dev.md
     - Contributing: guia/contributing.md
     
