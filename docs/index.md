@@ -18,4 +18,4 @@ A free and modular platform for academic and school administration.
 
 * Author: Zacarias J. Capingala
 
-* Date: November/2025
+* Date: January/2026
