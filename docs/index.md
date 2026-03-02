@@ -1,21 +1,39 @@
-# User Manual - SAGE Education
+# SAGE Edu Manual
 
-SAGE Education is an integrated IT system applied to education, developed to support the academic and administrative management of educational institutions.
-With a modular, secure and scalable architecture, the platform allows you to manage entities, enrollments, classes, assessments, academic paths and other processes essential to school functioning.
+## The Problem No One Wants to Admit
 
-This manual presents the functionalities, operations and procedures necessary for the efficient use of the modules that make up the Academic Management System (AMS), serving as a reference guide for secretariats, teachers, management and other users.
+The digitalization of education has been widely celebrated. Governments launch strategies. Conferences fill auditoriums. International reports multiply.
+
+But on the ground, reality is often very different.
+
+School administrative offices still recording enrollments in notebooks. Principals compiling grade sheets in disconnected spreadsheets. Ministries waiting weeks for statistical data that should be available in real time. Institutions paying fortunes for software licenses they barely use — becoming completely dependent on vendors who can, at any moment, change prices, discontinue products, or simply disappear.
+
+This is not a problem of willingness. It is a problem of access.
+
+And access is exactly what **SAGE Education** was created to change.
+
+## What Is SAGE Education
+
+SAGE Education is a free and open-source platform developed to support the complete management of educational institutions — of any size, anywhere in the world.
+
+In a single integrated solution, SAGE Education brings together:
+
+* AMS — Academic Management System: management of enrollments, assessments, grade reports, curriculum, and all academic processes;   
+* SMS — School Management System: management of classes, schedules, teachers, students, and communication;   
+* EIS — Educational Information System: indicators, statistical reports, and dashboards to support decision-making;  
+
+Its architecture was designed around three non-negotiable principles: *modularity, scalability, and security*. This means that a *small vocational training center and a national public education system* can both implement SAGE Education — each activating only the modules they need, and expanding as their needs grow.
+
+When an institution adopts SAGE Education, its data remains fully under its control. Its technical team can learn from, adapt, and evolve the system. The supporting community does not disappear or arbitrarily change prices. And the knowledge accumulated within the platform belongs to the institution — not to a third party.
+
+Because it is open source, the platform can be used in programming and software engineering courses as a real-world learning project. Students do not work on artificial examples — they work on a production system, with real users, real challenges, and real impact.
+
+This creates a virtuous cycle: the institution that adopts SAGE Education to manage its processes can simultaneously use it to train the next generation of developers. And those developers may, in the future, contribute back to the project itself — making it better for everyone.
 
 
-```bash
 
-SAGE Education — Open Educational Management System
-A free and modular platform for academic and school administration.
-
-```
-
-
-* Organization: Homem Marketing
-
-* Author: Zacarias J. Capingala
-
-* Date: January/2026
+* **Organization:** Familia Pequenino Capingala (FPC)   
+* **Author:** Zacarias J. Capingala 
+* **Project:** SAGE Edu 
+* **Version:** 1.2  
+* **Date:** Feberaury/2026

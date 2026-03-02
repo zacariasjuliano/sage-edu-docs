@@ -22,7 +22,7 @@ If you do not wish to proceed, you have the option to click "Cancel." This tool 
 
 Assessment management is conducted through this interface, allowing the viewing of all assessments and, for each one, a list of students with their respective grades.
 
-![Alternative text](../../imagens/avaliacoes.png)
+![Alternative text](../../imagens/avaliations.png)
 
 To assign grades, simply select a specific assessment, search for the desired student, and then enter or change the corresponding grade. After making the changes, click "Save" to record the changes.
 This approach offers an effective way to manage and update student grades during the academic assessment process.
@@ -44,7 +44,7 @@ To create a new agenda, you need to provide the required information. In the Age
 Schedule management is done through this interface, where you can view all the grades that have already been generated.
 For each grade, a list of students with their respective grades is available, providing a comprehensive view of each student's academic performance.
 
-![Alternative text](../../imagens/pautas.png)
+![Alternative text](../../imagens/schedule.png)
 
 This interface facilitates the analysis and monitoring of assessments over time, allowing for effective management of information related to student grades.
 
@@ -64,6 +64,6 @@ This tool offers an efficient way to document and analyze academic progress over
 
 The academic record allows for the storage of students' performance throughout a given academic year, providing crucial information for making decisions regarding student progression or retention.
 
-![Alternative text](../../imagens/percurso_academico.png)
+![Alternative text](../../imagens/academic_path.png)
 
 This tool provides a detailed analysis of academic performance, assisting in the evaluation of student progress and the definition of their educational pathways.

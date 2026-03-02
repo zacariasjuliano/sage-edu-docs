@@ -32,7 +32,7 @@ To register a new internal transfer, a student must be previously enrolled in th
 
 4. Click on “Save” and confirm the operation.
 
-![Alternative text](../../imagens/transferencia_interna.png)
+![Alternative text](../../imagens/transfers_internal.png)
 
 
 **External Transfers**
@@ -49,7 +49,7 @@ To register an external transfer:
 
 If you wish to inform the subjects the student took at another institution, simply enter the subject name, class, and grade. This way, at the time of enrollment, the system can correctly identify the class where the student should be placed.
 
-![Alternative text](../../imagens/transferencia_externa.png)
+![Alternative text](../../imagens/transfers_external.png)
 
 ---
 

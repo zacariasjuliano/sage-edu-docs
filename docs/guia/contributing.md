@@ -34,7 +34,7 @@ SAGE Edu follows:
 
 * The best practices of [Python](https://www.python.org/dev/peps/pep-0008/) (PEP 8)
 
-* The project is developed in Python, and the [source code](https://github.com/comunidadedosaber) is available on GitHub:
+* The project is developed in Python, and the [source code](https://github.com/zacariasjuliano/sage-edu) is available on GitHub:
 
 
 To obtain a copy of the project:

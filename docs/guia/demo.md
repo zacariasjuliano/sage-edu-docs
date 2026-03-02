@@ -4,10 +4,10 @@
 
 We host a public demo server where you can try out SAGE Education with different access profiles:
 
-- **Website:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
-- **Project:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+- **Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)   
 - **App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao) 
-- **PyPi:** [comunidade_do_saber](https://pypi.org/user/comunidade_do_saber)
+- **Time:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
+- **PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
 
 
 | **Profile** | **User**     | **Password**    |

@@ -26,7 +26,7 @@ The academic levels interface allows you to manage the levels offered by the ins
 
 In it, you can view all existing levels, add new levels, and define their specific characteristics.
 
-![Alternative text](../../imagens/niveis_academicos.png)
+![Alternative text](../../imagens/academic_levels.png)
 
 ---
 
@@ -35,7 +35,7 @@ In it, you can view all existing levels, add new levels, and define their specif
 Classroom management is performed in this interface, allowing the registration of new classrooms.
 To create a classroom, simply click "New," enter the necessary data, and then click "Save" to complete the process.
 
-![Alternative text](../../imagens/salas_aulas.png)
+![Alternative text](../../imagens/classrooms.png)
 
 ---
 
@@ -46,7 +46,7 @@ To create a new metric, simply click "New," enter the necessary data, and then c
 
 Each metric contains information such as rating, rating type, and metric name.
 
-![Alternative text](../../imagens/metricas.png)
+![Alternative text](../../imagens/metrics.png)
 
 ---
 
@@ -58,7 +58,7 @@ In it, you can define trimesters, phases and admission criteria, study plans, an
 
 By clicking "New," you can create a new academic year, specifying the desired start and end dates.
 
-![Alternative text](../../imagens/ano_lectivo.png)
+![Alternative text](../../imagens/academic_path.png)
 
 * To define the quarterly periods, click on the "Quarters" tab. By clicking "New", add the desired academic periods.
 

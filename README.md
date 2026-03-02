@@ -1,7 +1,7 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
 **Version:** 1.2.x  
-**Module:** Tryton ERP Version 7.0 
+**Module:** Tryton ERP Version 7.0   
 **Developer:** Zacarias Juliano Capingala (FPC)  
 
 
@@ -24,13 +24,13 @@ We host a public demo server where you can try out SAGE Education with different
 [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
 
 
-| Profile    | User      | Password        |
-|------------|-----------|-----------------|
-| Student    | student   | sage_education  |
-| Teacher    | teacher   | sage_education  |
-| Secretary  | secretary | sage_education  |
-| Direction  | direction | sage_education  |
-| Admin      | admin     | sage_admin      |
+| Profile    | User      |
+|------------|-----------|
+| Student    | student   |
+| Teacher    | teacher   |
+| Secretary  | secretary |
+| Direction  | direction | 
+| Admin      | admin     |
 
 
 ---
@@ -107,10 +107,11 @@ SAGE Education centralizes **all aspects of school management**, including:
 
 
 ### 🌐 Homepage
-
-**Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
+  
 **Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**E-mail:** [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)
+**App:** [sage.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**Docs:** [docs.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)    
 
 
 ---
@@ -125,7 +126,8 @@ Please open an issue or submit a pull request following the SAGE Edu contributio
 
 If you encounter any errors or require technical support, please contact us through the channels below:
 
-- 📧 **E-mail:** [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
+- 📧 **E-mail:** [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)   
+-    **E-mail:** [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)   
 - 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
 
 
