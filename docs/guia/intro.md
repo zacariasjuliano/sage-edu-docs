@@ -11,7 +11,7 @@ We hope you find **SAGE Education** motivating and inspiring, and we look forwar
 
 ---
 
-## ⚙️ Modules
+## 📦 Modules
 
 ### Akademy Dashboard Module
 

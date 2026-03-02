@@ -89,7 +89,7 @@ pip install psycopg2-binary
 
 pip install pycountry
 
-pip install trytond~=6.8.0
+pip install trytond~=7.0.0
 ```
 
 

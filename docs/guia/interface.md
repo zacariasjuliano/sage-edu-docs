@@ -4,7 +4,7 @@ Next, we will describe the work environment so that the user can become familiar
 
 The figure below shows the SAGE Education work environment, where most of the activities will be carried out; to do this, we will describe the options that this interface provides.
 
-![Alternative text](../imagens/sage-edu.png)
+![Alternative text](../imagens/class.png)
 
 
 - ***Side Menu:*** The left side menu bar, or menu bar, allows us to access the functionalities of each module. It offers various options depending on the installed modules.
