@@ -10,13 +10,13 @@ We host a public demo server where you can try out SAGE Education with different
 - **PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
 
 
-| **Profile** | **User**     | **Password**    |
-|-------------|--------------|-----------------|
-| Student     | student      | sage_education  |
-| Teacher     | teacher      | sage_education  |
-| Secretary   | secretary    | sage_education  |
-| Direction   | direction    | sage_education  |
-| Admin       | admin        | sage_admin      |
+| **Profile** | **User**     | 
+|-------------|--------------|
+| Student     | student      |
+| Teacher     | teacher      | 
+| Secretary   | secretary    | 
+| Direction   | direction    | 
+| Admin       | admin        |
 
 
 #### 💬 Technical Support

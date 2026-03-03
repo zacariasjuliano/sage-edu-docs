@@ -83,13 +83,13 @@ Here, the institution's operating and business rules can be defined, ensuring th
 
 This component provides ***six user profiles***, which can be assigned to any account within the platform, allowing you to test different levels of access and functionalities.
 
-| **Profile** | **User**     | **Password**    |
-|-------------|--------------|-----------------|
-| Student     | student      | sage_education  |
-| Teacher     | teacher      | sage_education  |
-| Secretary   | secretary    | sage_education  |
-| Direction   | direction    | sage_education  |
-| Admin       | admin        | sage_admin      |
+| **Profile** | **User**     |
+|-------------|--------------|
+| Student     | student      | 
+| Teacher     | teacher      | 
+| Secretary   | secretary    | 
+| Direction   | direction    |
+| Admin       | admin        | 
 
 ---
 

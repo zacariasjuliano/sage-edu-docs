@@ -1,7 +1,7 @@
 ### 📋 SAGE Edu Installation
 
 
-Before starting, make sure you have one of the following components installed in version 6.8.14 to access the client environment:
+Before starting, make sure you have one of the following components installed in version 7.0.0 to access the client environment:
 
 - [Tryton Desktop Client](https://www.tryton.org/)
 - [SAO Web Client](https://www.npmjs.com/package/tryton-sao)
