@@ -50,15 +50,15 @@ Each metric contains information such as rating, rating type, and metric name.
 
 ---
 
-##### School Year
+##### Lective Years
 
-The academic year interface allows for complete management of academic periods.
+The lective years interface allows for complete management of academic periods.
 
 In it, you can define trimesters, phases and admission criteria, study plans, and create new classes.
 
 By clicking "New," you can create a new academic year, specifying the desired start and end dates.
 
-![Alternative text](../../imagens/academic_path.png)
+![Alternative text](../../imagens/lective_years.png)
 
 * To define the quarterly periods, click on the "Quarters" tab. By clicking "New", add the desired academic periods.
 

@@ -5,7 +5,7 @@
 
 ### 🌍 Software Translation
 
-Currently, **SAGE Education** is only available in **Portuguese**, **English** and **French**.
+Currently, **SAGE Education** is only available in **Portuguese**, **English**, **French** and **German**.
 
 Expanding to new languages ​​is essential to broaden the project's impact and ensure it can be used in each user's native language.
 
@@ -46,6 +46,7 @@ git clone https://github.com/zacariasjuliano/akademy-classe
 git clone https://github.com/zacariasjuliano/akademy-matriculation
 git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
 git clone https://github.com/zacariasjuliano/akademy-dashboard
+git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
 ```
 
 ### 🐞 Reporting Bugs

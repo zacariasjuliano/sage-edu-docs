@@ -27,9 +27,15 @@ The **Akademy Company (Institution Management)** module is a complementary modul
 
 ### Akademy Class Module
 
-The **Akademy Class (Class Management)** module is a complementary module responsible for **academic management focused on classes**, keeping all information organized and accessible to the institution.
+The **Akademy Class (Classes Management)** module is a complementary module responsible for **academic management focused on classes**, keeping all information organized and accessible to the institution.
 
 It offers advanced tools for **controlling classes, teachers, and students**, allowing for centralized and efficient monitoring of each student's performance and progress.
+
+#### Akademy Classe Evaluation Module
+
+The **Akademy Classe Evaluation** module is a complementary module for **Classes Management** responsible for **academic management focused on classes evaluation and calendary**, keeping all information organized and accessible to the institution.
+
+It offers advanced tools for **report classes, teachers, and students**, allowing for centralized and efficient monitoring of each class performance and progress.
 
 ### Akademy Matriculation Module
 

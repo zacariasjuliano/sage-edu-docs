@@ -1,13 +1,8 @@
-### Demo
+### 🌐 Homepage
 
-#### 🌐 Homepage
+#### Demo
 
 We host a public demo server where you can try out SAGE Education with different access profiles:
-
-- **Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)   
-- **App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao) 
-- **Time:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
-- **PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
 
 
 | **Profile** | **User**     | 
@@ -18,6 +13,12 @@ We host a public demo server where you can try out SAGE Education with different
 | Direction   | direction    | 
 | Admin       | admin        |
 
+  
+**Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**App:** [sage.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**Docs:** [docs.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
+**PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
 
 #### 💬 Technical Support
 

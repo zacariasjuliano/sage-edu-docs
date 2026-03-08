@@ -35,5 +35,5 @@ This creates a virtuous cycle: the institution that adopts SAGE Education to man
 * **Organization:** Familia Pequenino Capingala (FPC)   
 * **Author:** Zacarias J. Capingala 
 * **Project:** SAGE Edu 
-* **Version:** 1.2  
-* **Date:** Feberaury/2026
+* **Version:** 1.3  
+* **Date:** March/2026

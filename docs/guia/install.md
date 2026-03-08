@@ -40,6 +40,7 @@ pip install akademy-classe
 pip install akademy-matriculation
 pip install akademy-matriculation-confirmation
 pip install akademy-dashboard
+pip install akademy-classe-evaluation
 ```
 
 * Create Tryton configuration file (trytond.conf)

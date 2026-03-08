@@ -71,6 +71,12 @@ Its main function is to manage assessments, keeping track of published assessmen
 
 This module provides the necessary foundation for more efficient class management, allowing you to automate the posting of grades and the academic history of students.
 
+* **Classe Evaluation Module**
+
+Its main function is to complement the class module, adding new features such as class management, assessments, and a calendar.
+
+It offers advanced tools for generating reports on classes, teachers, and students, allowing for centralized and efficient monitoring of the performance and progress of each class.
+
 * **Configuration Module**
 
 Its main function is to allow the configuration of the modules that make up the academic pedagogical management.
@@ -130,10 +136,6 @@ Assistants are guided routines that facilitate the execution of complex processe
 
 * Planos de Estudos
 
-* Critério de Admissão
-
-* Pauta de Exame de Acesso
-
 * Ficha Turma
 
 * Horário Turma
@@ -143,6 +145,16 @@ Assistants are guided routines that facilitate the execution of complex processe
 * Lista de Docentes
 
 * Plano de Aula
+
+* Critério de Admissão
+
+* Pauta de Exame de Acesso
+
+* Calendário Geral
+
+* Calendário de avaliações
+
+* Relatório Turma
 
 * Pauta Final
 
