@@ -1,37 +1,66 @@
-site_name: SAGE Edu – Documentação
+site_name: SAGE Edu – Documentation
 site_url: https://<seu-usuario>.github.io/sage-edu-docs/
+use_directory_urls: true
 
 theme:
   name: 'readthedocs'
-  language: 'en'
   features:
-    - navigation.instant
     - navigation.sections
     - navigation.expand
-    - search.suggest
     - search.highlight
     - content.code.copy
 
+extra:
+  search:
+    language: 'en, fr'
+
 nav:
-  - Introduction: guia/intro.md
-  - Quick Guide:
-    - Demonstration: guia/demo.md
-    - Installation: guia/install.md
-    - System Interface: guia/interface.md
-  - Modules: 
-    - SGA: 
-      - Description: modulos/sga/intro.md
-      - Entities: modulos/sga/party.md
-      - Matriculations: modulos/sga/matriculation.md
-      - Classes: modulos/sga/classes.md
-      - Avaliations: modulos/sga/avaliation.md
-      - Configurations: modulos/sga/configuration.md
-    #- SGE: 
-    #  - Description: modulos/sge/intro.md
-    #- SIE: 
-    #  - Description: modulos/sie/intro.md
-  - Developer:
-    - Release Process: guia/released_process.md
-    - Development Environment: guia/dev.md
-    - Contributing: guia/contributing.md
+  - Home: index.md
+  
+  - Langue / Language:
+    - English Documentation:
+      - Quick Guide:
+        - Demonstration: guia/demo.md
+        - Installation: guia/install.md
+        - System Interface: guia/interface.md
+      - Modules:
+        - SGA:
+          - Description: modulos/sga/intro.md
+          - Entities: modulos/sga/party.md
+          - Matriculations: modulos/sga/matriculation.md
+          - Classes: modulos/sga/classes.md
+          - Evaluations: modulos/sga/avaliation.md
+          - Configurations: modulos/sga/configuration.md   
+        - SGE:
+          - Description: modulos/sge/intro.md    
+        - SIE:
+          - Description: modulos/sie/intro.md  
+      - Developer:
+        - Release Process: guia/released_process.md
+        - Development Environment: guia/dev.md
+        - Contributing: guia/contributing.md
     
+    - French Documentation:
+      - Accueil: fr/index.md
+      - Guide Rapide:
+        - Démonstration: fr/guia/demo.md
+        - Installation: fr/guia/install.md
+        - Interface Système: fr/guia/interface.md   
+      - Modules:
+        - SGA:
+          - Description: fr/modulos/sga/intro.md
+          - Entités: fr/modulos/sga/party.md
+          - Inscriptions: fr/modulos/sga/matriculation.md
+          - Classes: fr/modulos/sga/classes.md
+          - Évaluations: fr/modulos/sga/avaliation.md
+          - Configurations: fr/modulos/sga/configuration.md    
+        - SGE:
+          - Description: fr/modulos/sge/intro.md
+        
+        - SIE:
+          - Description: fr/modulos/sie/intro.md
+      
+      - Developpeur:
+        - Processus de version: fr/guia/released_process.md
+        - Environnement de développement: fr/guia/dev.md
+      - Contribution: fr/guia/contributing.md
