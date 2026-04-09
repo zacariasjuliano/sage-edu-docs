@@ -1,6 +1,6 @@
 # 🏫 SAGE Education - Plateforme Open Source de Gestion Éducative
 
-**Version:** 1.3.x  
+**Version:** 1.4.x  
 **Module:** Tryton ERP Version 7.0
 **Developer:** Zacarias Juliano Capingala   
 
@@ -33,7 +33,7 @@ lien : [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)
 | Enseignant   | teacher   |
 | Secrétariat  | secretary |
 | Direction    | direction |
-|Administrateur| admin     |
+|Administrateur| admin_fr  |
 
 
 ---
@@ -112,8 +112,8 @@ SAGE Education centralise **tous les aspects de la gestion scolaire**, notamment
 ### 🌐 Page d’accueil
 
 **site web:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**App:** [sage.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**Docs:** [docs.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
+**Docs:** [docs.comunidadedosaber.ao](https://docs.comunidadedosaber.ao)  
 **Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
 **PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)    
 

@@ -12,55 +12,65 @@ theme:
 
 extra:
   search:
-    language: 'en, fr'
+    language: 'en, fr, pt'
 
 nav:
   - Home: index.md
   
   - Langue / Language:
     - English Documentation:
+      - Intro: lang/en/index.md
       - Quick Guide:
-        - Demonstration: guia/demo.md
-        - Installation: guia/install.md
-        - System Interface: guia/interface.md
+        - Demonstration: lang/en/guia/demo.md
+        - Installation: lang/en/guia/install.md
+        - System Interface: lang/en/guia/interface.md
       - Modules:
         - SGA:
-          - Description: modulos/sga/intro.md
-          - Entities: modulos/sga/party.md
-          - Matriculations: modulos/sga/matriculation.md
-          - Classes: modulos/sga/classes.md
-          - Evaluations: modulos/sga/avaliation.md
-          - Configurations: modulos/sga/configuration.md   
-        - SGE:
-          - Description: modulos/sge/intro.md    
-        - SIE:
-          - Description: modulos/sie/intro.md  
+          - Description: lang/en/modulos/sga/intro.md
+          - Entities: lang/en/modulos/sga/party.md
+          - Matriculations: lang/en/modulos/sga/matriculation.md
+          - Classes: lang/en/modulos/sga/classes.md
+          - Evaluations: lang/en/modulos/sga/avaliation.md
+          - Configurations: lang/en/modulos/sga/configuration.md   
       - Developer:
-        - Release Process: guia/released_process.md
-        - Development Environment: guia/dev.md
-        - Contributing: guia/contributing.md
+        - Release Process: lang/en/guia/released_process.md
+        - Development Environment: lang/en/guia/dev.md
+      - Contributing: lang/en/guia/contributing.md
     
     - French Documentation:
-      - Accueil: fr/index.md
+      - Accueil: lang/fr/index.md
       - Guide Rapide:
-        - Démonstration: fr/guia/demo.md
-        - Installation: fr/guia/install.md
-        - Interface Système: fr/guia/interface.md   
+        - Démonstration: lang/fr/guia/demo.md
+        - Installation: lang/fr/guia/install.md
+        - Interface Système: lang/fr/guia/interface.md   
       - Modules:
         - SGA:
-          - Description: fr/modulos/sga/intro.md
-          - Entités: fr/modulos/sga/party.md
-          - Inscriptions: fr/modulos/sga/matriculation.md
-          - Classes: fr/modulos/sga/classes.md
-          - Évaluations: fr/modulos/sga/avaliation.md
-          - Configurations: fr/modulos/sga/configuration.md    
-        - SGE:
-          - Description: fr/modulos/sge/intro.md
-        
-        - SIE:
-          - Description: fr/modulos/sie/intro.md
-      
+          - Description: lang/fr/modulos/sga/intro.md
+          - Entités: lang/fr/modulos/sga/party.md
+          - Inscriptions: lang/fr/modulos/sga/matriculation.md
+          - Classes: lang/fr/modulos/sga/classes.md
+          - Évaluations: lang/fr/modulos/sga/avaliation.md
+          - Configurations: lang/fr/modulos/sga/configuration.md         
       - Developpeur:
-        - Processus de version: fr/guia/released_process.md
-        - Environnement de développement: fr/guia/dev.md
-      - Contribution: fr/guia/contributing.md
+        - Processus de version: lang/fr/guia/released_process.md
+        - Environnement de développement: lang/fr/guia/dev.md
+      - Contribution: lang/fr/guia/contributing.md
+    
+    - Portuguese Documentation:
+      - Apresentação: lang/pt/index.md
+      - Guia:
+        - Demostração: lang/pt/guia/demo.md
+        - Instalação: lang/pt/guia/install.md
+        - Interface: lang/pt/guia/interface.md   
+      - Modules:
+        - SGA:
+          - Introdução: lang/pt/modulos/sga/intro.md
+          - Entidades: lang/pt/modulos/sga/party.md
+          - Matrículas: lang/pt/modulos/sga/matriculation.md
+          - Turmas: lang/pt/modulos/sga/classes.md
+          - Avaliações: lang/pt/modulos/sga/avaliation.md
+          - Configuração: lang/pt/modulos/sga/configuration.md     
+      - Desenvolvimento:
+        - Processo de lançamento: lang/pt/guia/released_process.md
+        - Ambiente de desenvolvimento: lang/pt/guia/dev.md
+      - Contribuição: lang/pt/guia/contributing.md

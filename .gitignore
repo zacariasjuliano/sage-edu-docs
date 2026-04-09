@@ -1,4 +1,10 @@
 
 
-db-example/*
-lang/*
+docs/lang/en/modulos/sge/*
+docs/lang/en/modulos/sie/*
+
+docs/lang/fr/modulos/sge/*
+docs/lang/fr/modulos/sie/*
+
+docs/lang/pt/modulos/sge/*
+docs/lang/pt/modulos/sie/*

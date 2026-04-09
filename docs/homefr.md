@@ -5,7 +5,10 @@ SAGE Education est un système informatique intégré dédié à l'éducation, c
 Grâce à son architecture modulaire, sécurisée et évolutive, la plateforme permet de gérer les établissements, les inscriptions, les classes, les évaluations, les parcours d'études et autres processus essentiels au fonctionnement de l'école.
 
 Ce manuel présente les fonctionnalités, les opérations et les procédures nécessaires à l'utilisation efficace des modules composant le Système de Gestion Pédagogique (SGP). Il constitue un guide de référence pour les secrétariats, les enseignants, la direction et les autres utilisateurs.
-**[🇺🇸 Click here for English version](index.md)**
+
+**[🇺🇸 Click here for English version](index.md)**   
+**[ Click here for French version](lang/fr/index.md)**   
+**[ Click here for Portuguese version](lang/pt/index.md)**   
 
 ```bash
 
@@ -17,8 +20,8 @@ Une plateforme gratuite et modulaire pour l'administration scolaire et académiq
 ---
 
 
-* Organization: Homem Marketing
+* Organization: Familia Pequenino Capingala (FPC)
 
 * Author: Zacarias J. Capingala
 
-* Date: January/2026
+* Start: Novembro/2025
