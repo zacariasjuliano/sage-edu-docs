@@ -5,10 +5,6 @@ With a modular, secure, and scalable architecture, the platform allows for the m
 
 This manual presents the functionalities, operations, and procedures necessary for the efficient use of the modules that make up the Academic Management System (AMS) and School Management System (SMS), serving as a reference guide for secretaries, teachers, management, and other users.
 
-**[🇺🇸 Click here for English version](index.md)**   
-**[ Click here for French version](lang/fr/index.md)**   
-**[ Click here for Portuguese version](lang/pt/index.md)**   
-
 ```bash
 
 SAGE Education — Open Educational Management System
@@ -16,6 +12,13 @@ A free and modular platform for academic and school administration.
 
 ```
 
+## 🌐 Languages
+
+- 🇺🇸 [English](index.md)
+- 🇫🇷 [French](lang/fr/index.md)
+- 🇵🇹 [Portuguese](lang/pt/index.md)
+
+---
 
 * Organization: Familia Pequenino Capingala (FPC)
 

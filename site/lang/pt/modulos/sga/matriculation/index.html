@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/lang/pt/modulos/sga/matriculation/" />
+      <link rel="shortcut icon" href="../../../../../img/favicon.ico" />
+    <title>Matrículas - SAGE Edu – Documentation</title>
+    <link rel="stylesheet" href="../../../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Matr\u00edculas";
+        var mkdocs_page_input_path = "lang/pt/modulos/sga/matriculation.md";
+        var mkdocs_page_url = "/sage-edu-docs/lang/pt/modulos/sga/matriculation/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../../../.." class="icon icon-home"> SAGE Edu – Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Langue / Language</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >English Documentation</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../en/">Intro</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Quick Guide</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../en/guia/demo/">Demonstration</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../en/guia/install/">Installation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../en/guia/interface/">System Interface</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Modules</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" >SGA</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../en/modulos/sga/intro/">Description</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../en/modulos/sga/party/">Entities</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../en/modulos/sga/matriculation/">Matriculations</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../en/modulos/sga/classes/">Classes</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../en/modulos/sga/avaliation/">Evaluations</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../en/modulos/sga/configuration/">Configurations</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Developer</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../en/guia/released_process/">Release Process</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../en/guia/dev/">Development Environment</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../en/guia/contributing/">Contributing</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >French Documentation</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../fr/">Accueil</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Guide Rapide</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../fr/guia/demo/">Démonstration</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../fr/guia/install/">Installation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../fr/guia/interface/">Interface Système</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Modules</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" >SGA</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../fr/modulos/sga/intro/">Description</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../fr/modulos/sga/party/">Entités</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../fr/modulos/sga/matriculation/">Inscriptions</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../fr/modulos/sga/classes/">Classes</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../fr/modulos/sga/avaliation/">Évaluations</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../../fr/modulos/sga/configuration/">Configurations</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Developpeur</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../fr/guia/released_process/">Processus de version</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../../fr/guia/dev/">Environnement de développement</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../fr/guia/contributing/">Contribution</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Portuguese Documentation</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../../../">Apresentação</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Guia</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../guia/demo/">Demostração</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../guia/install/">Instalação</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../guia/interface/">Interface</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" >Modules</a>
+    <ul class="current">
+                <li class="toctree-l3 current"><a class="reference internal current" >SGA</a>
+    <ul class="current">
+                <li class="toctree-l4"><a class="reference internal" href="../intro/">Introdução</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../party/">Entidades</a>
+                </li>
+                <li class="toctree-l4 current"><a class="reference internal current" href="#">Matrículas</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../classes/">Turmas</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../avaliation/">Avaliações</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../configuration/">Configuração</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Desenvolvimento</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../guia/released_process/">Processo de lançamento</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../guia/dev/">Ambiente de desenvolvimento</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../guia/contributing/">Contribuição</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../..">SAGE Edu – Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Langue / Language</li>
+          <li class="breadcrumb-item">Portuguese Documentation</li>
+          <li class="breadcrumb-item">Modules</li>
+          <li class="breadcrumb-item">SGA</li>
+      <li class="breadcrumb-item active">Matrículas</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h4 id="gestao-de-matriculas">Gestão de Matrículas</h4>
+<p>A sessão da secretaria é responsável pela gestão das matrículas, turmas e avaliações. Nela é possível manter o controlo de toda a vida académica dos discentes e docentes, facilitando a emissão de documentos, a publicação de pautas e o atendimento às necessidades dos utentes da secretaria e da direção da instituição.</p>
+<h5 id="candidatos">Candidatos</h5>
+<p>Na imagem acima, podemos observar as informações de uma candidatura vinculada ao candidato. É possível visualizar dados relacionados ao nível académico, fase, modalidade e o resultado final da candidatura.</p>
+<p><img alt="Texto alternativo" src="../../../../../imagens/candidatura.png" /></p>
+<hr />
+<h5 id="transferencias">Transferências</h5>
+<p>Esta sessão permite a gestão de duas modalidades de transferência: interna e externa.</p>
+<ul>
+<li>
+<p>Transferência interna refere-se a discentes que estão a sair da instituição para ingressar noutra.</p>
+</li>
+<li>
+<p>Transferência externa refere-se a discentes que estão a entrar na instituição provenientes de outra.</p>
+</li>
+</ul>
+<p><strong>Transferências internas</strong></p>
+<p>Para cadastrar uma nova transferência interna, é necessário ter um discente previamente matriculado no sistema. Em seguida:</p>
+<ol>
+<li>
+<p>Clicamos em “Novo”</p>
+</li>
+<li>
+<p>Procuramos o discente que desejamos identificar como transferido</p>
+</li>
+<li>
+<p>Podemos adicionar uma descrição e associar disciplinas existentes no percurso académico</p>
+</li>
+<li>
+<p>Clicamos em “Salvar” e confirmamos a operação</p>
+</li>
+</ol>
+<p><img alt="Texto alternativo" src="../../../../../imagens/transfers_internal.png" /></p>
+<p><strong>Transferências externas</strong></p>
+<p>Para cadastrar uma transferência externa:</p>
+<ol>
+<li>
+<p>Clicamos em “Novo”</p>
+</li>
+<li>
+<p>Procuramos a entidade que desejamos identificar como discente transferido</p>
+</li>
+<li>
+<p>Preenchemos os demais dados</p>
+</li>
+<li>
+<p>Clicamos em “Salvar” e confirmamos</p>
+</li>
+</ol>
+<p>Caso se deseje informar as disciplinas que o discente frequentou noutra instituição, basta inserir o nome da disciplina, classe e média. Assim, no momento da matrícula, o sistema poderá identificar corretamente a classe onde o discente deve ser posicionado.</p>
+<p><img alt="Texto alternativo" src="../../../../../imagens/transfers_external.png" /></p>
+<hr />
+<h5 id="efetuar-matricula">Efetuar Matrícula</h5>
+<p>O assistente de matrículas permite realizar matrículas de forma dinâmica. É necessário informar o tipo de matrícula — candidato, transferido ou discente previamente matriculado.</p>
+<p>Para efetuar uma matrícula:</p>
+<ol>
+<li>
+<p>Selecionamos o tipo de matrícula desejada</p>
+</li>
+<li>
+<p>Preenchemos os campos necessários</p>
+</li>
+<li>
+<p>Clicamos em “Matricular” para continuar</p>
+</li>
+<li>
+<p>Caso desejemos cancelar, clicamos em “Cancelar”</p>
+</li>
+<li>
+<p>Esta abordagem garante flexibilidade e controlo no processo de matrícula.</p>
+</li>
+</ol>
+<p><img alt="Texto alternativo" src="../../../../../imagens/matriculas.png" /></p>
+<hr />
+<h5 id="associar-disciplina">Associar Disciplina</h5>
+<p>O assistente de associação de disciplinas permite associar disciplinas de uma turma específica a determinados discentes. É utilizado quando um discente está matriculado numa turma, mas ainda não possui disciplinas vinculadas.</p>
+<p>Para realizar a associação:</p>
+<ol>
+<li>
+<p>Informamos a turma desejada</p>
+</li>
+<li>
+<p>Clicamos em “Associar”</p>
+</li>
+<li>
+<p>Caso desejemos cancelar, clicamos em “Cancelar”</p>
+</li>
+</ol>
+<p>Este assistente facilita a organização das disciplinas atribuídas aos discentes, garantindo uma gestão eficiente do currículo académico.</p>
+<p><img alt="Texto alternativo" src="../../../../../imagens/asociar_disciplina.png" /></p>
+<hr />
+<h5 id="avaliar-candidatura">Avaliar Candidatura</h5>
+<p>O assistente de avaliação de candidaturas permite analisar os candidatos inscritos e determinar se serão aprovados ou reprovados.</p>
+<p>Para realizar a avaliação:</p>
+<ol>
+<li>
+<p>Informamos o critério de admissão desejado</p>
+</li>
+<li>
+<p>Todas as candidaturas que cumprirem esse critério serão incluídas</p>
+</li>
+<li>
+<p>Clicamos em “Avaliar” para iniciar o processo</p>
+</li>
+<li>
+<p>Caso necessário, clicamos em “Cancelar” para anular a operação</p>
+</li>
+</ol>
+<p>Esta ferramenta garante uma seleção criteriosa, eficiente e transparente.</p>
+<p><img alt="Texto alternativo" src="../../../../../imagens/avaliar_candidatura.png" /></p>
+<hr />
+<h5 id="mudanca-de-matricula">Mudança de Matrícula</h5>
+<p>O assistente de mudança de matrícula permite transferir um discente para outra área, curso, turma ou período.</p>
+<p>Para efetuar a mudança:</p>
+<ol>
+<li>
+<p>Selecionamos o discente desejado</p>
+</li>
+<li>
+<p>Indicamos a nova turma ou destino</p>
+</li>
+<li>
+<p>Clicamos em “Mudar” para confirmar</p>
+</li>
+</ol>
+<p>Esta ferramenta oferece flexibilidade na gestão académica, permitindo ajustes conforme as necessidades dos discentes e da instituição.</p>
+<p><img alt="Texto alternativo" src="../../../../../imagens/mudanca_matricula.png" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../party/" class="btn btn-neutral float-left" title="Entidades"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../classes/" class="btn btn-neutral float-right" title="Turmas">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../party/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../classes/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../../../..";</script>
+    <script src="../../../../../js/theme_extra.js"></script>
+    <script src="../../../../../js/theme.js"></script>
+      <script src="../../../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

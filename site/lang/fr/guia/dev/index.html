@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://<seu-usuario>.github.io/sage-edu-docs/lang/fr/guia/dev/" />
+      <link rel="shortcut icon" href="../../../../img/favicon.ico" />
+    <title>Environnement de développement - SAGE Edu – Documentation</title>
+    <link rel="stylesheet" href="../../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Environnement de d\u00e9veloppement";
+        var mkdocs_page_input_path = "lang/fr/guia/dev.md";
+        var mkdocs_page_url = "/sage-edu-docs/lang/fr/guia/dev/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../../.." class="icon icon-home"> SAGE Edu – Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Langue / Language</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >English Documentation</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../en/">Intro</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Quick Guide</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../en/guia/demo/">Demonstration</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../en/guia/install/">Installation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../en/guia/interface/">System Interface</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Modules</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" >SGA</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../en/modulos/sga/intro/">Description</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../en/modulos/sga/party/">Entities</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../en/modulos/sga/matriculation/">Matriculations</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../en/modulos/sga/classes/">Classes</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../en/modulos/sga/avaliation/">Evaluations</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../en/modulos/sga/configuration/">Configurations</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Developer</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../en/guia/released_process/">Release Process</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../en/guia/dev/">Development Environment</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../en/guia/contributing/">Contributing</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >French Documentation</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../../">Accueil</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Guide Rapide</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../demo/">Démonstration</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../install/">Installation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../interface/">Interface Système</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Modules</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" >SGA</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../modulos/sga/intro/">Description</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../modulos/sga/party/">Entités</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../modulos/sga/matriculation/">Inscriptions</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../modulos/sga/classes/">Classes</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../modulos/sga/avaliation/">Évaluations</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../modulos/sga/configuration/">Configurations</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" >Developpeur</a>
+    <ul class="current">
+                <li class="toctree-l3"><a class="reference internal" href="../released_process/">Processus de version</a>
+                </li>
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">Environnement de développement</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#1-preparation-de-lenvironnement">🖥️ 1. Préparation de l'environnement</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#2-installation-et-configuration">🏗️ 2. Installation et Configuration</a>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../contributing/">Contribution</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Portuguese Documentation</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../pt/">Apresentação</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Guia</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../pt/guia/demo/">Demostração</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../pt/guia/install/">Instalação</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../pt/guia/interface/">Interface</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Modules</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" >SGA</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../../../pt/modulos/sga/intro/">Introdução</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../pt/modulos/sga/party/">Entidades</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../pt/modulos/sga/matriculation/">Matrículas</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../pt/modulos/sga/classes/">Turmas</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../pt/modulos/sga/avaliation/">Avaliações</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../../../pt/modulos/sga/configuration/">Configuração</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Desenvolvimento</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../../pt/guia/released_process/">Processo de lançamento</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../../pt/guia/dev/">Ambiente de desenvolvimento</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../pt/guia/contributing/">Contribuição</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../..">SAGE Edu – Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Langue / Language</li>
+          <li class="breadcrumb-item">French Documentation</li>
+          <li class="breadcrumb-item">Developpeur</li>
+      <li class="breadcrumb-item active">Environnement de développement</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="environnement-de-developpement">📘 Environnement de développement</h2>
+<p>Dans cette section, nous présentons toutes les étapes nécessaires à la configuration de l'environnement de développement <strong>SAGE Edu</strong>, y compris la préparation du système, la configuration des dépendances et l'installation des modules Tryton utilisés par le projet.</p>
+<h3 id="1-preparation-de-lenvironnement">🖥️ 1. Préparation de l'environnement</h3>
+<p>Avant de commencer, nous vous recommandons de créer un environnement de développement isolé, notamment si vous devez utiliser plusieurs versions de Python.</p>
+<p>Pour cela, nous utiliserons… <a href="https://virtualenv.pypa.io/en/latest/">virtualenv</a>.</p>
+<ul>
+<li>🔧 Installation de Virtualenv</li>
+</ul>
+<p>Sur les distributions Linux basées sur Debian, installez Python 3 et virtualenv avec :</p>
+<pre><code class="language-bash">sudo apt install python3 virtualenv
+</code></pre>
+<ul>
+<li>🧪 Création de l'environnement virtuel</li>
+</ul>
+<p>Créer et activer un environnement virtuel unique pour SAGE edu:</p>
+<pre><code class="language-bash">virtualenv sage_edu_env
+
+source sage_edu_env/bin/activate
+</code></pre>
+<h3 id="2-installation-et-configuration">🏗️ 2. Installation et Configuration</h3>
+<p>SAGE Edu utilise Tryton comme framework et PostgreSQl comme gestionnaire de base de données.
+Installer les packages nécessaires dans l'environnement virtuel:</p>
+<h4 id="installation-de-postgresql">📦 Installation de PostgreSQL</h4>
+<pre><code class="language-bash">sudo apt install postgresql postgresql-contrib
+</code></pre>
+<p>👤 <strong>Créer des utilisateurs</strong></p>
+<pre><code class="language-bash">sudo su postgres -c &quot;createuser -s sage_edu&quot;
+
+sudo su postgres -c &quot;psql -c \&quot;ALTER ROLE sage_edu WITH PASSWORD 'sage_edu'\&quot;&quot;
+</code></pre>
+<p>⚙️ **Configuration de PostgreSQL **</p>
+<p>Certains fichiers doivent etre ajustés pour permettre un accès correct.</p>
+<ul>
+<li>modifier pg_hba.conf</li>
+</ul>
+<p>Recherchez et modifier la ligne ci-dessous:</p>
+<pre><code class="language-bash">DE: 
+    local         all            all                        peer
+
+PARA:
+    local         all            all                        md5
+</code></pre>
+<ul>
+<li>modifier postgresql.conf</li>
+</ul>
+<p>Activer le paramètre d'écoute réseau:</p>
+<pre><code class="language-bash">listen_addresses = '*'
+</code></pre>
+<p>Supprimez le ; au début de la ligne s'il existe.</p>
+<ul>
+<li>Relancez le service</li>
+</ul>
+<pre><code class="language-bash">sudo systemctl restart postgresql
+</code></pre>
+<p>🗄️ <strong>Créer une base de données</strong></p>
+<pre><code class="language-bash">createdb -U sage_edu sage_edu_db
+</code></pre>
+<h4 id="installation-de-trytond">📦 Installation de Trytond</h4>
+<pre><code class="language-bash">pip install psycopg2-binary
+
+pip install pycountry
+
+pip install trytond~=7.0.0
+</code></pre>
+<p>📝 <strong>Créer le fichier trytond.conf</strong></p>
+<p>Créer le fichier de configuration du serveur Tryton :</p>
+<pre><code class="language-bash">touch trytond.conf
+</code></pre>
+<p>Ajouter du contenu :</p>
+<pre><code class="language-bash">[database]
+uri = postgresql://sage_edu:sage_edu@localhost:5432/sage_edu_db
+</code></pre>
+<ul>
+<li>🔧 Initialiser la base de données</li>
+</ul>
+<pre><code class="language-bash">trytond-admin -c trytond.conf -d sage_edu_db --all
+</code></pre>
+<p>🚀 <strong>Lancer le serveur de Tryton</strong></p>
+<pre><code class="language-bash">trytond -c trytond.conf
+</code></pre>
+<h4 id="installation-des-modules-sage-edu">📦 Installation des Modules SAGE Edu</h4>
+<p>Une fois l'environnement Tryton configuré,installer les modules officiels SAGE Edu directement depuis GitHub:</p>
+<pre><code class="language-bash">git clone https://github.com/zacariasjuliano/akademy-party
+git clone https://github.com/zacariasjuliano/akademy-company
+git clone https://github.com/zacariasjuliano/akademy-classe
+git clone https://github.com/zacariasjuliano/akademy-matriculation
+git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
+git clone https://github.com/zacariasjuliano/akademy-dashboard
+git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
+</code></pre>
+<p>💡 Note: Après l'installation de nouveaux modules, il est recommandé de redémarrer le serveur Tryton et de relancer trytond-admin pour sychroniser les tables.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../released_process/" class="btn btn-neutral float-left" title="Processus de version"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../contributing/" class="btn btn-neutral float-right" title="Contribution">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../released_process/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../contributing/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../../..";</script>
+    <script src="../../../../js/theme_extra.js"></script>
+    <script src="../../../../js/theme.js"></script>
+      <script src="../../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

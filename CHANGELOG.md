@@ -8,6 +8,7 @@ The format as follows the recomendations of [Keep a Changelog](https://keepachan
 ### Changed
 - Standardizing with the Tryton version 7.0.0
 - All modules version follows the Tryton version 7.0
+- Translated from English to French and Portuguese
 
 
 ## [1.3.0] - 2026-03-08

@@ -20,7 +20,7 @@ Traduzir o **SAGE Edu** é simples e não requer conhecimentos avançados. Basta
 ### 📝 Escrita e Melhoria da Documentação
 
 Manter uma documentação completa e atualizada é um desafio contínuo, e toda ajuda é valiosa.
-A documentação oficial do **SAGE Edu** está disponível no GitHub, onde pode:
+A documentação oficial do **SAGE Edu** está disponível no [GitHub](https://github.com/zacariasjuliano/sage-edu-docs), onde pode:
 
 * Corrigir erros
 * Melhorar explicações

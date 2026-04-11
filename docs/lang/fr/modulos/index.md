@@ -15,8 +15,6 @@ Centre d'information complet sur les étudiants.
 
 ## 🔗 Accès rapide aux modules
 - [SGA - Description](sga/intro.md)
-- [SGE - Description](sge/intro.md)
-- [SIE - Description](sie/intro.md)
 
 ---
 

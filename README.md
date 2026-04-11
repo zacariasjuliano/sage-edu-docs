@@ -1,8 +1,8 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
+**Module:** AMS & SMS   
 **Version:** 1.4.x  
-**Module:** Tryton ERP Version 7.0   
-**Developer:** Zacarias Juliano Capingala  *(FPC)*     
+**Author:** Zacarias Juliano Capingala  *(FPC)*     
 
 
 ---

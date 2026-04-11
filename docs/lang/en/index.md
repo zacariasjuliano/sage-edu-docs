@@ -36,4 +36,4 @@ This creates a virtuous cycle: the institution that adopts SAGE Education to man
 * **Author:** Zacarias J. Capingala 
 * **Project:** SAGE Edu 
 * **Version:** 1.4  
-* **Date:** April/2026
+* **Update:** April/2026

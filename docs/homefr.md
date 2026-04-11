@@ -6,19 +6,19 @@ Grâce à son architecture modulaire, sécurisée et évolutive, la plateforme p
 
 Ce manuel présente les fonctionnalités, les opérations et les procédures nécessaires à l'utilisation efficace des modules composant le Système de Gestion Pédagogique (SGP). Il constitue un guide de référence pour les secrétariats, les enseignants, la direction et les autres utilisateurs.
 
-**[🇺🇸 Click here for English version](index.md)**   
-**[ Click here for French version](lang/fr/index.md)**   
-**[ Click here for Portuguese version](lang/pt/index.md)**   
-
 ```bash
 
 SAGE Education — Système ouvert de gestion de l'éducation
 Une plateforme gratuite et modulaire pour l'administration scolaire et académique.
 ```
 
+## 🌐 Languages
+
+- 🇺🇸 [English](index.md)
+- 🇫🇷 [French](lang/fr/index.md)
+- 🇵🇹 [Portuguese](lang/pt/index.md)
 
 ---
-
 
 * Organization: Familia Pequenino Capingala (FPC)
 
